@@ -3,3 +3,7 @@
 	margin: 0;
 	padding: 0;
 }
+
+        @media only screen and (max-width: 480px) {
+            header.col-1, nav.col-2, div.col-1, div.col-3, footer.col-3 {width: calc(100% - 4px);}
+        }
