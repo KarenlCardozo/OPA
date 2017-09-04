@@ -1,0 +1,77 @@
+/*ESTILOS FOOTER*/
+
+footer h4{
+
+	font-size: 14px;
+	font-family: arial;
+	text-align: center;
+}
+footer p{
+
+		font-family: helvetica;
+		font-size: 14px;
+}
+
+footer { 
+
+	height: 220px;
+	background-color: #323639; 
+	color: #ffffff; 
+	clear: both;
+	width: auto;
+}
+
+footer li{
+    margin-right: 30px;
+}
+
+footer ul{
+
+	list-style-type:none;
+	display: flex;
+    margin: 10px;
+}
+
+
+
+#logo{
+
+	justify-content: flex-start;
+	margin-left: 20px;
+	width: 400px;
+	margin:20px 20px;
+	float: left;
+
+}
+.logofooter { 
+
+	width: 250px;
+	margin-top: 30px;
+}
+
+#info {
+
+	float: left;
+	margin-top: 140px;
+	width: 320px;
+	height: 120px;
+	margin-left: 200px;
+}
+
+
+.icon{
+	width: 25px;
+}
+
+#redes{
+
+	float: left;
+	margin-top: 140px;
+	margin-left: 160px;
+}
+
+#min{
+
+	font-size: 10px;
+	font-family: helvetica;
+}
