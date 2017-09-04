@@ -7,21 +7,23 @@
 /*ESTILOS HEADER*/
 header { height: 240px; background-color: #ffffff;}
 header div { height: 210px; }
-header div .logoheader { height: 200px;}
-header .btn { float: left; margin-left: 50px; background-color: #ffffff;
+header div .logoheader { height: 200px; }
+header .btn { float: right; margin-right: 50px; background-color: #ffffff;
 				 margin-bottom:50px ; font-size: 20px;  text-align: center; border:none;} 
 header div .botonesheader{ height: 90px; border: none; }
-header .botonesheader img { float: left; width: 30px; height: 30px; margin-left: 10px; margin-right: 0px;}
+header .botonesheader img { float: right; width: 25px; height: 25px; margin-left: 20px; margin-right: 5px;}
 
 
 /*imagen del boton*/
-header form button img {height: 30px; width: 35px; margin-left: 4px; margin-right: 2px; margin-top: 4px; float: right;}
+header form button img {height: 30px; width: 35px; margin-left: 4px; margin-right: 2px; margin-top: 4px; 
+							float: right;}
 
 /*contenedor del buscador */
 header .buscadorheader{ height: 40px; background-color: #ffab00; margin:80px; margin-top: 0px; border-radius: 8px;}
 
 /*boton*/
-header .buscadorheader button{ float: right; height: 35px; width: 40px ; border-radius: 8px; background-color: #ffab00; margin-top: 1px; margin-right: 6px; border: none;}
+header .buscadorheader button{ float: right; height: 35px; width: 40px ; border-radius: 8px;
+								 background-color: #ffab00; margin-top: 1px; margin-right: 6px; border: none;}
 
 /*texto a buscar*/
 
@@ -38,10 +40,11 @@ section div .inf {background-color: lightgray; height: 130px; }
 
 /*ESTILOS FOOTER*/
 
-footer { height: 240px; background-color: #323639; margin: 20px; float: left; background-color: #323639; color: #ffffff; border: none;}
+footer { height: 240px; background-color: #323639; margin: 20px; float: left; background-color: #323639; 
+			color: #ffffff; border: none;}
 footer div { height: 210px; color: #ffffff; font: 80% sans-serif;}
 footer div .logofooter { height: 150px;}
-footer div .div2 { padding-left: 30px; padding-top: 30px; font: 120% sans-serif;  }
+footer div .div2 { padding-left: 30px; padding-top: 30px; font: 120% sans-serif;}
 footer div ul {list-style-type:none;}
 footer div ul img{ width: 30px; height: 30px; margin: 10px;}
 
