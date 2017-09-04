@@ -4,20 +4,28 @@
 	padding: 0;
 }
 
-
 header { height: 240px; background-color: #ffffff;}
 header div { height: 210px; }
 header div .logoheader { height: 200px;}
-header button { float: left; margin-left: 50px; font-size: 20px;  text-align: center; border: none;}
-header .botonesheader img { float: left; }
+header button { float: left; margin-right: 50px; background-color: #ffffff;
+				 margin-bottom:50px ; font-size: 20px;  text-align: center; border:none;} 
 
 
+header div .botonesheader{ height: 90px; border: none;}
+header .botonesheader img { float: left; width: 30px; height: 30px; margin-left: 10px; margin-right: 0px;}
 
-header form img {height: 20px; width: 20px; margin-left: 2px; margin-right: 2px;}
-header form button {width: 20px ; height: 20px;  background-color: #ffab00; }
-header form input {width: 150px;}
-header .form-group { background-color: #ffab00; padding: 5px; width: 40%; height: 30px;}
 
+/*imagen del boton*/
+header form button img {height: 35px; width: 40px; margin-left: 2px; margin-right: 2px;}
+
+/*contenedor del buscador */
+header div .buscadorheader{ height: 40px; background-color: #ffab00; margin:80px; margin-top: 0px; border-radius: 8px;}
+
+/*boton*/
+header form button .inp1 { height: 35px; width: 40px ; background-color: #ffab00; margin-top: 10px;}
+
+/*texto a buscar*/
+header form .inptexto { height: 100px; width: calc(100%-4px); margin: 00px 10px; margin-top: 10px;}
 
 
 
