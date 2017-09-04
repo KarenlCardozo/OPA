@@ -1,0 +1,128 @@
+* {    
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/*ESTILOS HEADER*/
+
+header { 
+
+    height: 130px;
+    background-color: #ffffff;
+    width: auto;
+}
+
+
+.logoheader { 
+
+    height: 110px;
+    float: left;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.botonesheader{
+
+	width: auto;
+}
+
+#imgcarro{
+
+width: 15px;
+}
+
+/*Lista carrito, registrarse, ingresar*/
+header ul {
+
+     list-style-type: none;
+     justify-content: flex-end; 
+     margin-right: 60px;
+     display: flex;
+     text-align: center;
+}
+ header li {
+
+    position: relative;
+    margin-right: 20px; 
+    margin-top: 20px;
+    display:inline-block; 
+    font-family: Helvetica;  
+
+
+}
+
+header li a {
+    padding: 10px;
+    text-decoration: none;
+    color: #323639;
+    font-size: 16px; 
+    display: block;
+
+
+}
+
+header li:active{
+
+    text-decoration: underline;
+
+}
+header li:first-child:active{
+
+    text-decoration: none;
+
+}
+
+
+
+/*contenedor del buscador */
+
+header .buscadorheader{ 
+
+
+    height: 40px; 
+    background-color: #ffab00; 
+    margin:80px;  
+    border-radius: 8px;
+}
+
+
+
+header #lupa{
+
+    width: 20px;
+}
+
+
+/*boton*/
+header  button{ 
+
+    height: 35px; 
+    width: 40px; 
+    background-color: #ffab00;  
+    float: right;
+    border: none;
+    margin-right: 5px;
+}
+
+
+
+.searchcolor{
+
+    background: #FFAB00;
+    height: 36px;
+    width: 230px;
+    border-radius: 4px 4px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 80px;
+}
+
+
+/*texto a buscar*/
+header form .inptexto { 
+
+    height: 100px;  
+    margin-top: 8px; 
+    float: right;
+}
