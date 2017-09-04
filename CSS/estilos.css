@@ -21,7 +21,7 @@ header form button img {height: 30px; width: 35px; margin-left: 4px; margin-righ
 header .buscadorheader{ height: 40px; background-color: #ffab00; margin:80px; margin-top: 0px; border-radius: 8px;}
 
 /*boton*/
-header .buscadorheader button{ float: right; height: 35px; width: 40px ; background-color: #ffab00; margin-top: 1px; margin-left: 6px; border: none;}
+header .buscadorheader button{ float: right; height: 35px; width: 40px ; border-radius: 8px; background-color: #ffab00; margin-top: 1px; margin-right: 6px; border: none;}
 
 /*texto a buscar*/
 
@@ -29,15 +29,11 @@ header form .inptexto { height: 100px; width: 80%; margin: 00px 10px; float: lef
 header form .inptexto #buscador { width: 100%; height: 30px; float: left; margin: 5px; }
 
 
-
-
 /*ESTILOS SECTION*/
 
 section div {height: 300px; border-radius: 8px;  }
 section div .sup {background-color: grey; margin: 0px; height: 130px; }
 section div .inf {background-color: lightgray; height: 130px; }
-
-
 
 
 /*ESTILOS FOOTER*/
