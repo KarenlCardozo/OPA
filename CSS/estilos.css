@@ -4,13 +4,12 @@
 	padding: 0;
 }
 
+/*ESTILOS HEADER*/
 header { height: 240px; background-color: #ffffff;}
 header div { height: 210px; }
 header div .logoheader { height: 200px;}
 header .btn { float: left; margin-left: 50px; background-color: #ffffff;
 				 margin-bottom:50px ; font-size: 20px;  text-align: center; border:none;} 
-
-
 header div .botonesheader{ height: 90px; border: none; }
 header .botonesheader img { float: left; width: 30px; height: 30px; margin-left: 10px; margin-right: 0px;}
 
@@ -28,12 +27,16 @@ header .buscadorheader button{ height: 35px; width: 40px ; background-color: #ff
 header form .inptexto { height: 100px; width: 80%; margin: 00px 10px; margin-top: 10px; float: right;}
 
 
+/*ESTILOS SECTION*/
+
+section div {height: 300px; border-radius: 8px;  }
+section div .sup {background-color: grey; margin: 0px; height: 130px; }
+section div .inf {background-color: lightgray; height: 130px; }
 
 
 
 
-
-
+/*ESTILOS FOOTER*/
 
 footer { height: 240px; background-color: #323639; margin: 20px; float: left; background-color: #323639; color: #ffffff; border: none;}
 footer div { height: 210px; color: #ffffff; font: 80% sans-serif;}
@@ -41,6 +44,10 @@ footer div .logofooter { height: 150px;}
 footer div .div2 { padding-left: 30px; padding-top: 30px; font: 120% sans-serif;  }
 footer div ul {list-style-type:none;}
 footer div ul img{ width: 30px; height: 30px; margin: 10px;}
+
+
+/*MODELO RESPONSIVE*/
+
 
 [class*="col-"] { float: left;
             padding: 15px;
