@@ -1,3 +1,5 @@
+
+
 section p{
 
 font-size: 18px;
@@ -6,15 +8,13 @@ font-family: helvetica;
 }
 
 
-
 .contador{
 
-
 	width: 200px;
-	border: 1px solid black;
 	float: left;
 	height: 100px;
 	margin-left: 845px;
+	margin-bottom: 20px;
 }
 
 .orden{
@@ -38,6 +38,7 @@ font-family: helvetica;
 
 	width: auto;
 	height: 600px;
+	margin-bottom: 20px
 }
 
 .fila1 #art1{
@@ -118,6 +119,7 @@ font-family: helvetica;
 
 	width: auto;
 	height: 600px;
+	margin-top: 50px;
 }
 
 .fila2 #art1{
@@ -197,6 +199,7 @@ font-family: helvetica;
 
 	width: auto;
 	height: 600px;
+	margin-top: 0px;
 }
 
 .fila3 #art1{
