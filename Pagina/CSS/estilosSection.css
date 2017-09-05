@@ -6,6 +6,34 @@ font-family: helvetica;
 }
 
 
+
+.contador{
+
+
+	width: 200px;
+	border: 1px solid black;
+	float: left;
+	height: 100px;
+	margin-left: 845px;
+}
+
+.orden{
+
+	width: 200px;
+	float: left;
+	margin-left: 50px;
+}
+
+
+.Boxcont{
+
+	background: #FFAB00;
+	width: 200px;
+	height: 60px;
+	border-radius: 4px;
+}
+
+
 .fila1{
 
 	width: auto;
