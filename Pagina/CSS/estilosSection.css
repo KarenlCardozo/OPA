@@ -51,6 +51,22 @@ font-family: helvetica;
 	box-shadow: 0px 5px 5px #E4E4E4;
 }
 
+.fila1 .Box1{
+
+	position: relative;
+	overflow: hidden;
+	background: white;
+	height: 250px;
+}
+
+.fila1 .Box-1{
+
+	position: relative;
+	overflow: hidden;
+	height: 250px;
+	z-index: 99;
+}
+
 .fila1 #art2{
 
 	width: 300px;
@@ -83,13 +99,7 @@ font-family: helvetica;
 
 
 
-.fila1 .Box1{
 
-	position: relative;
-	overflow: hidden;
-	background: #F0F0F0;
-	height: 250px;
-}
 
 .fila1 .Box2{
 
@@ -119,7 +129,7 @@ font-family: helvetica;
 
 	width: auto;
 	height: 600px;
-	margin-top: 50px;
+	margin-top: 100px;
 }
 
 .fila2 #art1{
