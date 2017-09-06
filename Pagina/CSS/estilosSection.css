@@ -264,3 +264,26 @@ font-family: helvetica;
 	background: #F0F0F0;
 	height: 250px;
 }
+
+/*modificaciones*/
+
+ul p {
+	text-align: center;
+	color: #323639;
+	font-family: "Arial";
+	font-size: 110%; 
+	text-indent: 10px;
+}
+
+ul .poferta {
+	color: #6E2C00;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+li {list-style:none;
+	margin-top: 5px;
+}
+
+.Box { margin-top: 20px;
+} 
