@@ -32,6 +32,7 @@ font-family: helvetica;
 	height: 60px;
 	border-radius: 4px;
 }
+
 .fila1{
 
 	width: auto;
@@ -39,27 +40,40 @@ font-family: helvetica;
 	margin-top: 50px;
 }
 
-.fila1 #art{
+
+.fila2{
+
+	width: auto;
+	height: 600px;
+	margin-top: 100px;
+}
+
+.fila3{
+
+	width: auto;
+	height: 600px;
+	margin-top: 0px;
+}
+
+#art{
 
 	width: 300px;
-	height: 500px;
+	height: 400px;
 	background: #fff;
 	float: left;
 	margin-left: 50px;
 	box-shadow: 0px 5px 5px #E4E4E4;
 }
 
-.fila1 #art-1{
+ #art-1{
 
 	width: 300px;
-	height: 500px;
+	height: 400px;
 	background: #fff;
 	float: left;
 	margin-left: 15px;
 	box-shadow: 0px 5px 5px #E4E4E4;
 }
-
-
 
 
 .imgBox{
@@ -84,66 +98,6 @@ font-family: helvetica;
 }
 
 
-/*FILA 2*/
-.fila2{
-
-	width: auto;
-	height: 600px;
-	margin-top: 100px;
-}
-
-.fila2 #art{
-
-	width: 300px;
-	height: 500px;
-	background: #fff;
-	float: left;
-	margin-left: 50px;
-	box-shadow: 0px 5px 5px #E4E4E4;
-}
-
-.fila2 #art-1{
-
-	width: 300px;
-	height: 500px;
-	background: #fff;
-	float: left;
-	margin-left: 15px;
-	box-shadow: 0px 5px 5px #E4E4E4;
-}
-
-
-/*FILA 3*/
-.fila3{
-
-	width: auto;
-	height: 600px;
-	margin-top: 0px;
-}
-
-.fila3 #art{
-
-	width: 300px;
-	height: 500px;
-	background: #fff;
-	float: left;
-	margin-left: 50px;
-	box-shadow: 0px 5px 5px #E4E4E4;
-}
-
-.fila3 #art-1{
-
-	width: 300px;
-	height: 500px;
-	background: #fff;
-	float: left;
-	margin-left: 15px;
-	box-shadow: 0px 5px 5px #E4E4E4;
-}
-
-
-
-
 
 
 /*modificaciones*/
@@ -152,17 +106,19 @@ section ul p {
 	text-align: center;
 	color: #323639;
 	font-family: helvetica;
-	font-size: 110%; 
+	font-size: 14px; 
 	text-indent: 10px;
 }
 
 section ul .poferta {
 	color: #FFAB00;
-	font-size: 120%;
+	font-size: 16px;
 	font-weight: bold;
+	padding: 5px;
+
 }
 
-section li {list-style:none;
+section li {
 	margin-top: 5px;
 }
 
@@ -170,7 +126,13 @@ section li {list-style:none;
 } 
 
 
-ul li a{
+article a{
 
 text-decoration: none;
+display: block;
+
+}
+
+section ul{
+	list-style-type: none;
 }
