@@ -15,7 +15,7 @@ footer p{
 }
 
 footer { 
-	height: 220px;
+	height: 180px;
 	background-color: #323639; 
 	clear: both;
 	width: auto;
@@ -48,35 +48,27 @@ footer #info ul{
 	float: left;
 	margin-top: 15px;
 	margin-left: 20px;
-	width: 200px;
-	height: 180px;
-
+	width: 250px;
+	height: 150px;
 }
 
 .logofooter { 
 
-	width: 250px;
-	margin-top: 30px;
+	width: 200px;
+	margin-top: 15px;
 	margin-left: 30px;
 }
 
 
 footer  #info{
-	margin-top: 70px;
+	margin-top: 50px;
 	width: 170px;
 	height: 90px;
-	margin-left: 350px;
+	margin-left: 370px;
 	color: #ffffff; 
 	padding: 5px;
 	float: left;
 }
-
-/*
-	margin-top:140px;
-	width: 320px;
-	height: 120px;
-	margin-left: 200px;
-*/
 
 
 .icon{
@@ -85,11 +77,11 @@ footer  #info{
 
 #redes{
 	justify-content: flex-start;
-	margin-left: 380px;
+	margin-left: 370px;
 	width: 150px;
-	margin-top: 80px;
+	margin-top: 60px;
 	float: left;
-	height: 50px;
+	height: 90px;
 
 }
 
