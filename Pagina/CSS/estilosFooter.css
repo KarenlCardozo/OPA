@@ -15,7 +15,7 @@ footer p{
 
 footer { 
 
-	height: 240px;
+	height: 160px;
 	background-color: #323639; 
 	clear: both;
 	width: auto;
@@ -42,26 +42,25 @@ footer #info ul{
 #logo{
 
 	float: left;
-	margin-top: 75px;
+	margin-top: 15px;
 	margin-left: 20px;
 }
 
 .logofooter { 
 
 	width: 180px;
-	margin-top: 30px;
+	margin-top: 15px;
 }
 
 #info {
 
 	float: left;
-	margin-top: 30px;
-	width: 175px;
-	height: 120px;
-	margin-left: 0px;
+	margin-top: 45px;
+	width: 170px;
+	height: 90px;
+	margin-left: 350px;
 	color: #ffffff; 
 	padding: 5px;
-
 	}
 
 
@@ -71,9 +70,9 @@ footer #info ul{
 
 #redes{
 	justify-content: flex-start;
-	margin-left: 300px;
+	margin-left: 380px;
 	width: 150px;
-	margin-top: 32px;
+	margin-top: 70px;
 	float: left;
 	height: 50px;
 
