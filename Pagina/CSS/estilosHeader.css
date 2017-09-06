@@ -67,11 +67,7 @@ header li:active{
     text-decoration: underline;
 
 }
-header li:first-child:active{
 
-    text-decoration: none;
-
-}
 
 
 

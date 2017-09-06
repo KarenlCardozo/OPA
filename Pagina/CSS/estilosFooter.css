@@ -4,7 +4,8 @@ footer h4{
 
 	font-size: 14px;
 	font-family: arial;
-	text-align: center;
+	color: #ffffff;
+	margin-left: 25px;
 }
 footer p{
 
@@ -14,9 +15,8 @@ footer p{
 
 footer { 
 
-	height: 220px;
+	height: 240px;
 	background-color: #323639; 
-	color: #ffffff; 
 	clear: both;
 	width: auto;
 }
@@ -25,53 +25,63 @@ footer li{
     margin-right: 30px;
 }
 
-footer ul{
+footer #redes ul{
 
-	list-style-type:none;
 	display: flex;
+	list-style-type:none;
     margin: 10px;
+}
+
+footer #info ul{
+
+    display: block;
 }
 
 
 
 #logo{
 
-	justify-content: flex-start;
-	margin-left: 20px;
-	width: 400px;
-	margin:20px 20px;
 	float: left;
-
+	margin-top: 75px;
+	margin-left: 20px;
 }
+
 .logofooter { 
 
-	width: 250px;
+	width: 180px;
 	margin-top: 30px;
 }
 
 #info {
 
 	float: left;
-	margin-top: 140px;
-	width: 320px;
+	margin-top: 30px;
+	width: 175px;
 	height: 120px;
-	margin-left: 200px;
-}
+	margin-left: 0px;
+	color: #ffffff; 
+	padding: 5px;
+
+	}
 
 
 .icon{
-	width: 25px;
+	width: 18px;
 }
 
 #redes{
-
+	justify-content: flex-start;
+	margin-left: 300px;
+	width: 150px;
+	margin-top: 32px;
 	float: left;
-	margin-top: 140px;
-	margin-left: 160px;
+	height: 50px;
+
 }
 
 #min{
 
 	font-size: 10px;
 	font-family: helvetica;
+	color: #515456; 	
 }
