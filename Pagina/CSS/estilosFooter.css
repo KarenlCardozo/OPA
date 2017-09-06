@@ -10,11 +10,12 @@ footer p{
 
 		font-family: helvetica;
 		font-size: 14px;
+		color: white;
 }
 
 footer { 
 
-	height: 220px;
+	height: 230px;
 	background-color: #323639; 
 	color: #ffffff; 
 	clear: both;
@@ -22,17 +23,16 @@ footer {
 }
 
 footer li{
-    margin-right: 30px;
+    margin-right: 10px;
+
 }
 
 footer ul{
-
 	list-style-type:none;
 	display: flex;
     margin: 10px;
+
 }
-
-
 
 #logo{
 
@@ -52,10 +52,10 @@ footer ul{
 #info {
 
 	float: left;
-	margin-top: 140px;
+	margin-top:140px;
 	width: 320px;
 	height: 120px;
-	margin-left: 200px;
+	margin-left: 140px;
 }
 
 
