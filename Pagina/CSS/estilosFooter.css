@@ -4,7 +4,8 @@ footer h4{
 
 	font-size: 14px;
 	font-family: arial;
-	text-align: center;
+	color: #ffffff;
+	margin-left: 25px;
 }
 footer p{
 
@@ -15,9 +16,12 @@ footer p{
 
 footer { 
 
+<<<<<<< HEAD
 	height: 230px;
+=======
+	height: 160px;
+>>>>>>> dbf18a9af4229776d98dccf59b96674a2e7ff175
 	background-color: #323639; 
-	color: #ffffff; 
 	clear: both;
 	width: auto;
 }
@@ -27,51 +31,79 @@ footer li{
 
 }
 
+<<<<<<< HEAD
 footer ul{
 	list-style-type:none;
+=======
+footer #redes ul{
+
+>>>>>>> dbf18a9af4229776d98dccf59b96674a2e7ff175
 	display: flex;
+	list-style-type:none;
     margin: 10px;
+<<<<<<< HEAD
+=======
+}
+
+footer #info ul{
+
+    display: block;
+}
+
+>>>>>>> dbf18a9af4229776d98dccf59b96674a2e7ff175
 
 }
 
 #logo{
 
-	justify-content: flex-start;
-	margin-left: 20px;
-	width: 400px;
-	margin:20px 20px;
 	float: left;
-
+	margin-top: 15px;
+	margin-left: 20px;
 }
+
 .logofooter { 
 
-	width: 250px;
-	margin-top: 30px;
+	width: 180px;
+	margin-top: 15px;
 }
 
 #info {
 
 	float: left;
+<<<<<<< HEAD
 	margin-top:140px;
 	width: 320px;
 	height: 120px;
 	margin-left: 140px;
 }
+=======
+	margin-top: 45px;
+	width: 170px;
+	height: 90px;
+	margin-left: 350px;
+	color: #ffffff; 
+	padding: 5px;
+	}
+>>>>>>> dbf18a9af4229776d98dccf59b96674a2e7ff175
 
 
 .icon{
-	width: 25px;
+	width: 18px;
 }
 
 #redes{
-
+	justify-content: flex-start;
+	margin-left: 380px;
+	width: 150px;
+	margin-top: 70px;
 	float: left;
-	margin-top: 140px;
-	margin-left: 160px;
+	height: 50px;
+
 }
 
 #min{
 
 	font-size: 10px;
 	font-family: helvetica;
+	color: #515456; 	
 }

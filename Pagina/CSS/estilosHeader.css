@@ -9,7 +9,7 @@
 header { 
 
     height: 130px;
-    background-color: #ffffff;
+    background-color: rgba(241, 242, 242, 0.9);
     width: auto;
 }
 
@@ -67,11 +67,7 @@ header li:active{
     text-decoration: underline;
 
 }
-header li:first-child:active{
 
-    text-decoration: none;
-
-}
 
 
 
@@ -97,21 +93,21 @@ header #lupa{
 /*boton*/
 header  button{ 
 
-    height: 35px; 
-    width: 40px; 
+    height: 30px; 
+    width: 30px; 
     background-color: #ffab00;  
     float: right;
     border: none;
-    margin-right: 5px;
+    margin-right: 0px;
 }
 
 
 
 .searchcolor{
 
-    background: #FFAB00;
-    height: 36px;
-    width: 230px;
+    border: 2px solid #FFAB00;
+    height: 34px;
+    width: 380px;
     border-radius: 4px 4px;
     float: right;
     margin-top: 10px;
@@ -123,6 +119,13 @@ header  button{
 header form .inptexto { 
 
     height: 100px;  
-    margin-top: 8px; 
+    margin-top: 0px; 
     float: right;
+}
+
+#buscador {
+
+    width: 346px;
+    padding: 0px;
+    height: 30px;
 }

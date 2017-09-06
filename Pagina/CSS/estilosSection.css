@@ -1,10 +1,8 @@
 
-
 section p{
 
 font-size: 18px;
 font-family: helvetica;
-
 }
 
 
@@ -15,7 +13,9 @@ font-family: helvetica;
 	height: 100px;
 	margin-left: 845px;
 	margin-bottom: 20px;
+
 }
+
 
 .orden{
 
@@ -33,79 +33,14 @@ font-family: helvetica;
 	border-radius: 4px;
 }
 
-
 .fila1{
 
 	width: auto;
 	height: 600px;
-	margin-bottom: 20px
-}
-
-.fila1 #art1{
-
-	width: 300px;
-	height: 500px;
-	background: #fff;
-	float: left;
-	margin-left: 50px;
-	box-shadow: 0px 5px 5px #E4E4E4;
+	margin-top: 50px;
 }
 
 
-
-.fila1 #art2{
-
-	width: 300px;
-	height: 500px;
-	float: left;
-	margin-left: 15px;
-	box-shadow: 0px 5px 5px #E4E4E4;
-}
-
-
-
-.fila1 #art3{
-
-	width: 300px;
-	height: 500px;
-	float: left;
-	margin-left: 15px;
-	box-shadow: 0px 5px 5px #E4E4E4;
-}
-
-.fila1 #art4{
-
-	width: 300px;
-	height: 500px;
-	background: #fff;
-	float: left;
-	margin-left: 15px;
-	box-shadow: 0px 5px 5px #E4E4E4;
-}
-
-.fila1 .Box{
-
-	position: relative;
-	overflow: hidden;
-	background: white;
-	height: 250px;
-}
-
-.imgBox{
-
-	position: relative;
-	overflow: hidden;
-	height: 250px;
-	z-index: 99;
-	border-radius: 6px 6px 0px 0px;
-}
-
-
-
-
-
-
-/*FILA 2*/
 .fila2{
 
 	width: auto;
@@ -113,177 +48,99 @@ font-family: helvetica;
 	margin-top: 100px;
 }
 
-.fila2 #art1{
-
-	width: 300px;
-	height: 500px;
-	background: #fff;
-	float: left;
-	margin-left: 50px;
-	box-shadow: 0px 5px 5px #E4E4E4;
-}
-
-.fila2 #art2{
-
-	width: 300px;
-	height: 500px;
-	background: #fff;
-	float: left;
-	margin-left: 15px;
-	box-shadow: 0px 5px 5px #E4E4E4;
-}
-
-.fila2 #art3{
-
-	width: 300px;
-	height: 500px;
-	background: #fff;
-	float: left;
-	margin-left: 15px;
-	box-shadow: 0px 5px 5px #E4E4E4;
-}
-
-.fila2 #art4{
-
-	width: 300px;
-	height: 500px;
-	background: #fff;
-	float: left;
-	margin-left: 15px;
-	box-shadow: 0px 5px 5px #E4E4E4;
-}
-
-
-
-.fila2 .Box1{
-
-	position: relative;
-	overflow: hidden;
-	background: #F0F0F0;
-	height: 250px;
-}
-
-.fila2 .Box2{
-
-	position: relative;
-	overflow: hidden;
-	background: #F0F0F0;
-	height: 250px;
-}
-.fila2 .Box3{
-
-	position: relative;
-	overflow: hidden;
-	background: #F0F0F0;
-	height: 250px;
-}
-.fila2 .Box4{
-
-	position: relative;
-	overflow: hidden;
-	background: #F0F0F0;
-	height: 250px;
-}
-
-/*FILA 3*/
 .fila3{
 
 	width: auto;
 	height: 600px;
-	margin-top: 0px;
 }
 
-.fila3 #art1{
+#art{
 
 	width: 300px;
-	height: 500px;
+	height: 400px;
 	background: #fff;
 	float: left;
 	margin-left: 50px;
 	box-shadow: 0px 5px 5px #E4E4E4;
+	border: 1px solid #dbdcda;
+	border-radius: 6.5px 6.5px 0px 0px;
 }
 
-.fila3 #art2{
+ #art-1{
 
 	width: 300px;
-	height: 500px;
+	height: 400px;
 	background: #fff;
+	border: 1px solid #dbdcda;
+	border-radius: 6.5px 6.5px 0px 0px;
 	float: left;
 	margin-left: 15px;
 	box-shadow: 0px 5px 5px #E4E4E4;
-}
 
-.fila3 #art3{
-
-	width: 300px;
-	height: 500px;
-	background: #fff;
-	float: left;
-	margin-left: 15px;
-	box-shadow: 0px 5px 5px #E4E4E4;
-}
-
-.fila3 #art4{
-
-	width: 300px;
-	height: 500px;
-	background: #fff;
-	float: left;
-	margin-left: 15px;
-	box-shadow: 0px 5px 5px #E4E4E4;
 }
 
 
-
-.fila3 .Box1{
+.imgBox{
 
 	position: relative;
 	overflow: hidden;
-	background: #F0F0F0;
 	height: 250px;
+	border-radius: 6px 6px 0px 0px;
 }
 
-.fila3 .Box2{
+.imgBox img{
 
-	position: relative;
-	overflow: hidden;
-	background: #F0F0F0;
-	height: 250px;
+		transition: .5s;
 }
-.fila3 .Box3{
 
-	position: relative;
-	overflow: hidden;
-	background: #F0F0F0;
-	height: 250px;
-}
-.fila3 .Box4{
 
-	position: relative;
-	overflow: hidden;
-	background: #F0F0F0;
-	height: 250px;
+.imgBox:hover img {
+
+
+	transform: scale(1.1); 
 }
+
+
+
 
 /*modificaciones*/
 
-ul p {
+section ul p {
 	text-align: center;
 	color: #323639;
-	font-family: "Arial";
-	font-size: 110%; 
+	font-family: helvetica;
+	font-size: 14px; 
 	text-indent: 10px;
 }
 
-ul .poferta {
-	color: #6E2C00;
-	font-size: 120%;
+section ul .poferta {
+	color: #FFAB00;
+	font-size: 16px;
 	font-weight: bold;
+	padding: 5px;
+
 }
 
-li {list-style:none;
+section li {
 	margin-top: 5px;
 }
 
 .Box { margin-top: 20px;
 } 
+
+
+article a{
+
+text-decoration: none;
+display: block;
+
+}
+
+section ul{
+	list-style-type: none;
+}
+
+section{
+
+	height: 1900px;
+}
