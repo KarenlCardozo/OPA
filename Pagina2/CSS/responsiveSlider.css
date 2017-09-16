@@ -1,0 +1,31 @@
+@media (max-width: 768px){
+
+
+.slider {
+
+	width: 700px;
+	margin-left: 0;
+
+}
+
+@keyframes cambio {
+
+
+		0% {margin-left: 0;}
+		20% {margin-left: 0;}
+
+
+		25%{ margin-left: -210% }
+		45%{ margin-left: -210% }
+
+		50%{ margin-left: -390% }
+		70%{ margin-left: -390% }
+
+		75%{ margin-left: -550% }
+		100%{ margin-left: -550%}
+
+
+}
+
+
+}

@@ -1,0 +1,146 @@
+
+section p{
+
+font-size: 18px;
+font-family: helvetica;
+}
+
+
+.contador{
+
+	width: 200px;
+	float: left;
+	height: 100px;
+	margin-left: 845px;
+	margin-bottom: 20px;
+
+}
+
+
+.orden{
+
+	width: 200px;
+	float: left;
+	margin-left: 50px;
+}
+
+
+.Boxcont{
+
+	background: #FFAB00;
+	width: 200px;
+	height: 60px;
+	border-radius: 4px;
+}
+
+.fila1{
+
+	width: auto;
+	height: 600px;
+	margin-top: 50px;
+}
+
+
+.fila2{
+
+	width: auto;
+	height: 600px;
+	margin-top: 100px;
+}
+
+.fila3{
+
+	width: auto;
+	height: 600px;
+}
+
+#art{
+
+	width: 300px;
+	height: 400px;
+	background: #fff;
+	float: left;
+	margin-left: 50px;
+	box-shadow: 0px 5px 5px #E4E4E4;
+	border: 1px solid #dbdcda;
+	border-radius: 6.5px 6.5px 0px 0px;
+}
+
+ #art-1{
+
+	width: 300px;
+	height: 400px;
+	background: #fff;
+	border: 1px solid #dbdcda;
+	border-radius: 6.5px 6.5px 0px 0px;
+	float: left;
+	margin-left: 15px;
+	box-shadow: 0px 5px 5px #E4E4E4;
+
+}
+
+
+.imgBox{
+
+	position: relative;
+	overflow: hidden;
+	height: 250px;
+	border-radius: 6px 6px 0px 0px;
+}
+
+.imgBox img{
+
+		transition: .5s;
+}
+
+
+.imgBox:hover img {
+
+
+	transform: scale(1.1); 
+}
+
+
+
+
+/*modificaciones*/
+
+section ul p {
+	text-align: center;
+	color: #323639;
+	font-family: helvetica;
+	font-size: 14px; 
+	text-indent: 10px;
+}
+
+section ul .poferta {
+	color: #FFAB00;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 5px;
+
+}
+
+section li {
+	margin-top: 5px;
+}
+
+.Box { margin-top: 20px;
+} 
+
+
+article a{
+
+text-decoration: none;
+display: block;
+
+}
+
+section ul{
+	list-style-type: none;
+}
+
+section{
+
+	height: 1900px;
+}
