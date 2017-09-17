@@ -1,11 +1,10 @@
-
-@media screen and (max-width: 768px){
+@media screen and (max-width: 425px){
 
 
 
 	.contenedor{
 
-	width: auto;
+	width:auto;
 }
 
 header{
@@ -18,17 +17,25 @@ header{
 
 /*NAVEGATION Y NAV*/
 
+		
+
 		.navegation label{
 			display: block;
 			height: 40px;
 			width: 40px;
 		}
 
+		.navegation label img{
+			width: 20px;
+
+		}
+
 		.menu-nav{ 
 				position: absolute;
-				width: 45%;
+				width: 50%;
 				margin-left: -70%;
 				transition: all 0.5s;
+				z-index: 99;
 				 }
 		.menu-nav ul{
 
@@ -53,15 +60,18 @@ header{
 		.submenu{
 
 				position: absolute;
-				width: 80%;
+				width: 100%;
 				margin-left: 100%;
 				transition: all 0.5s;
-				background: rgba(254,201,1,0.9);
+				background: rgba(254,201,1);
 				margin-top: -62px;	
+				z-index: 99;
 				}
 
+		
+
 		.submenu li{
-			padding: 5px;
+			padding: 0px;
 		}
 
 		.menu-nav li:active{
@@ -83,22 +93,28 @@ header{
 			display: block;
 			height: 100px;
 			background-color: #323639;
-			width: 100%;
+			width: auto;
 		}
 
+		.mobileview ul {
+
+			    
+			     margin-left: 60px;
+			     margin-top: 10px;
+			}
 
 		#lupa2{
 
 			display: block;
-		}
+    		margin-left: 210px;
+}
+
 
 		/*SLIDER*/
 
 		.slider {
 
-	width: 100%;
-	margin-left: 0;
-
+	display: none;
 }
 
 
@@ -111,81 +127,79 @@ header{
 
 	float: left;
 	width: auto;
-	margin-left: 20px;
 }
 
 .contador{
 
-	margin-left: 200px;
-}
+	margin-left: 10px;
+	float: left;
+	width: 200px;
+	margin-top: 10px;
 
+}
+	
 .orden{
 
 	float: left;
-	margin-left: 100px;
+	margin-left: 0px;
+	width: 200px;
 }
 
 
 
 .col-3{
 
-	width: 42%;
+	width: 82%;
 	margin-top: 20px;
 	float: left;
 	margin-left: 15px;
-
 }
 
 .col-4{
 
-	width: 45%;
+	width: 100%;
 	margin-top: 20px;
-	float: right;
-	margin-right: 40px;
-
-
+	float: left;
+	margin-left: 0px;
 }
 
 .col-5{
 
-	width: 45%;
+	width: 100%;
 	margin-top: 20px;
 	float: left;
-
 }
 
 .col-6{
 
-	width: 45%;
+	width: 100%;
 	margin-top: 20px;
-	float: right;
-	margin-right: 40px;
+	float: left;
 }
 
 .col-7{
 
-	width: 42%;
+	width: 100%;
 	margin-top: 20px;
 	float: left;
 	margin-left: 20px;
-
 }
 
 .col-8{
 
-	width: 45%;
+	width: 100%;
 	margin-top: 20px;
-	float: right;
-	margin-right: 40px;
+	float: left;
+	margin-right: 20px;
 	margin-bottom: 20px;
-
 }
 
 
 .col-9{
 
-	width: 42%;
+	width: 100%;
 	margin-top: 20px;
+	margin-bottom: 20px;
 	float: left;
 	margin-left: 0px;
 
@@ -195,7 +209,7 @@ header{
 
 	width: 45%;
 	margin-top: 0px;
-	float: right;
+	float: left;
 	margin-right: 40px;
 	margin-bottom: 20px;
 
@@ -203,17 +217,19 @@ header{
 
 .col-11{
 
-	width: 42%;
-	margin-top: 20px;
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 20px;
 	float: left;
 	margin-left: 20px;
+
 }
 
 .col-12{
 
-	width: 45%;
+	width: 100%;
 	margin-top: 0px;
-	float: right;
+	float: left;
 	margin-right: 40px;
 	margin-bottom: 20px;
 
@@ -221,19 +237,18 @@ header{
 
 .col-13{
 
-	width: 42%;
-	margin-top: 20px;
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 20px;
 	float: left;
-	margin-left: 5px;
 
 }
 
 .col-14{
 
-	width: 45%;
+	width: 100%;
 	margin-top: 0px;
-	float: right;
-	margin-right: 40px;
+	float: left;
 	margin-bottom: 20px;
 
 }
@@ -242,7 +257,9 @@ header{
 
 
 /*FOOTER*/
+footer{
 
+}
 
 footer #logo{
 display: none;
@@ -250,55 +267,37 @@ display: none;
 
 footer #redes{
 
-	margin-left: 160px;
+	margin-left: 30px;
 	margin-top: 30px;
+	float: left;
 }
 
 footer  #info{
 
-	margin-left: 120px;
+	margin-left: 60px;
 	margin-top: 30px;
+	float: left;
 }
 
 .Copyr p{
 
 	font-size: 8px;
 	color: rgba(255,255,255,0.5);
-	margin-left: 200px;
+	margin-left: 100px;
 	width: 280px;
 	padding-top: 10px;
 }
 .Copyr{
 
 	display: block;
-	margin-left: 50px;
-	border-top: 1px solid white;
+	margin-left: 20px;
 	height: 12px;
 	float: left;
-	width: 600px;
+	width: 380px;
 	margin-top: 10px;
 
 }
 
 
-
-@keyframes cambio {
-
-
-		0% {margin-left: 0;}
-		20% {margin-left: 0;}
-
-
-		25%{ margin-left: -190% }
-		45%{ margin-left: -190% }
-
-		50%{ margin-left: -350% }
-		70%{ margin-left: -350% }
-
-		75%{ margin-left: -500% }
-		100%{ margin-left: -500%}
-
-
-}
 }
 
