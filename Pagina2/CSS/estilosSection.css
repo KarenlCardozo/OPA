@@ -11,7 +11,7 @@ font-family: helvetica;
 	width: 200px;
 	float: left;
 	height: 100px;
-	margin-left: 845px;
+	margin-left: 700px;
 	margin-bottom: 20px;
 
 }
@@ -142,5 +142,16 @@ section ul{
 
 section{
 
-	height: 1900px;
+	height: auto;
+	float: center;
+
+	
+}
+
+.contenedor{
+
+	
+	width: auto;
+	height: auto;
+
 }

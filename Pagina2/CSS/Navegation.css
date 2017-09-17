@@ -28,7 +28,7 @@
 	display: none;
 	background: rgba(255,255,255,0.1);
     border-radius: 4px;
-    margin-left: 500px;
+    margin-left: 540px;
 }
 
 #btn-lupa{
@@ -94,7 +94,7 @@ background: #FEC901;
      display: flex;
      text-align: center;
      float: left;
-     margin-left: 350px;
+     margin-left: 400px;
      margin-top: 10px;
 }
 .mobileview li {
@@ -122,94 +122,6 @@ background: #FEC901;
 
 
 
-@media (max-width: 768px){
 
-			header{
-
-			display: none;
-		}
-
-
-
-
-
-		.navegation label{
-			display: block;
-			height: 40px;
-			width: 40px;
-		}
-
-		.menu-nav{ 
-				position: absolute;
-				width: 45%;
-				margin-left: -70%;
-				transition: all 0.5s;
-				 }
-		.menu-nav ul{
-
-			flex-direction: column;
-
-		}
-
-		.menu-nav li{
-
-			border-top: 1px solid white;
-			padding: 10px;
-
-		}
-
-
-		 #btn-menu:checked ~ .menu-nav{	
-
-						margin-left: 0;
-		}
-
-
-		.submenu{
-
-				position: absolute;
-				width: 80%;
-				margin-left: 100%;
-				transition: all 0.5s;
-				background: rgba(254,201,1,0.9);
-				margin-top: -62px;	
-				}
-
-		.submenu li{
-			padding: 5px;
-		}
-
-		.menu-nav li:active{
-
-			    background-color: #FFAB00;
-
-			}
-
-		.submenu li:active{
-
-			    background-color: #FFAB00;
-
-			}
-
-		
-
-		.mobileview{
-
-			display: block;
-			height: 100px;
-			background-color: #323639;
-			width: 100%;
-		}
-
-
-		#lupa2{
-
-			display: block;
-		}
-
-
-		
-
-}
 
 

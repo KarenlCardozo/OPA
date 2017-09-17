@@ -43,13 +43,14 @@ footer #info ul{
     display: block;
 }
 
-#logo{
+footer #logo{
 
 	float: left;
 	margin-top: 15px;
 	margin-left: 20px;
 	width: 250px;
 	height: 150px;
+	display: block;
 }
 
 .logofooter { 
@@ -90,4 +91,9 @@ footer  #info{
 	font-size: 10px;
 	font-family: helvetica;
 	color: #515456; 	
+}
+
+.Copyr{
+
+	display: none;
 }
