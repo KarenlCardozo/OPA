@@ -1,20 +1,13 @@
-
-
-
-
 /*PARA 980PX o MENOS*/
 
-
-@media screen and (max-width:980px){
+/*a partir de los 980px pasa esto*/
+@media screen and (min-width:992px){
 
 .contenedor{
 
 	width: auto;
 
 }
-
-
-
 
 .col-1, nav, .col-20{
 
@@ -30,12 +23,13 @@
 
 /*SLIDER*/
 
-.slider {
+.slider { width: (89% - 1px);}
 
-	width: 100%;
-	margin-left: 0;
+.slider img {
+			width: auto;}
 
-} /**/
+
+
 /*
 
 @keyframes cambio {
