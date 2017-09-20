@@ -9,11 +9,12 @@
 
 }
 
+/*
 .col-1, nav, .col-20{
 
-	width:auto;
+	width: auto;
 	float: none; 
-}
+}*/
 
 .menu li a {
 
@@ -25,10 +26,7 @@
 
 .slider { width: (89% - 1px);}
 
-.slider img {
-			width: auto;}
-
-
+.slider img { width: auto;}
 
 /*
 
@@ -53,23 +51,22 @@
 
 
 /*ORDEN Y CONTADOR*/
-
-
+/*
 .col-2{
-	width: auto;
-	
-}
+	width: auto;	
+}*/
 
-.contador{
+.orden{   }
 
-	margin-left: 300px;
+.contador{ 
+
+	margin-left: 50%;
+
+	/*margin-left: 300px;*/
 }
 
 
 /*SECTION*/
-
-
-
 
 
 
