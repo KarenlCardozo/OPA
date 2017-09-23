@@ -21,7 +21,6 @@ section p{
 
 	width: auto;
 	float: left;
-	border: 1px solid black;
 }
 
 
@@ -31,8 +30,6 @@ section p{
 	width: 200px;
 	float: right;
 	height: 100px;
-	border: 1px solid black;
-
 }
 
 .Boxcont{
