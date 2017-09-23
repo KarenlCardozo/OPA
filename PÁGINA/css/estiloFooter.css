@@ -23,6 +23,8 @@ footer #redes{
 	left: 0;
 	top: 0;
 	width: auto;
+	margin: 20px 10px;
+	text-align: center;
 }
 
 
@@ -31,6 +33,8 @@ footer  #info{
 
 	float: right;
 	border: 1px solid pink;
+	margin: 20px 10px;
+	text-align: center;
 }
 
 
@@ -49,7 +53,7 @@ footer  #info{
 	font-size: 9px;
 	color: rgba(255,255,255,0.5);
 	padding-top: 10px;
-	border: 1px solid teal;
+	text-align: center;
 }
 .Copyr{
 
@@ -58,7 +62,7 @@ footer  #info{
 	height: 12px;
 	float: left;
 	width: 100%;
-	margin-top: 20px;
+	margin-top: 0px;
 
 
 }
