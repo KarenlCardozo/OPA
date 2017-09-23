@@ -165,9 +165,49 @@ background-color: #FFAB00;
 footer{
 
 	clear: left;
-	background: teal;
+	height: auto;
+	
 }
 
 
+.Copyr p{
 
+
+display: none;
+
+}
+
+
+footer #redes{
+
+	float: right;
+	margin: 40px;
+}
+
+
+footer #info{
+	width: 200px;
+	float: right;
+	margin: 40px 100px;
+}
+
+footer #logo{
+
+	display: block;
+	float: left;
+	margin: 20px 20px;
+
+}
+.logofooter{
+
+	width: 200px;
+}
+
+footer #logo p{
+
+	font-size: 10px;
+	color: #7A7A7A;
+}
+
+}
 
