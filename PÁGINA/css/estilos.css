@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: white;
+}
+
+
+body{
+
+	background: white;
+	font-family: helvetica;
+	font-size: 16px;
+	
+}
+
+
+
+header{
+
+     height: 140px;
+     background: #FFFFFB;
+     width: 100%;     
+     z-index: 100;
+     display: none;
+     top: 0;
+}
+
+.logoheader { 
+
+    height: 110px;
+    float: left;
+}
+
+
+
+.contenedor{
+
+	width: 98%;
+	margin: auto;
+}
+
+.mobileview{
+
+			display: block;
+			height: 100px;
+			background-color: #323639;
+			border: 2px solid skyblue;
+			width: 100%;
+     		top: 0;
+			left: 0;
+     		z-index: 100;
+
+		}
+
+.mobileview .logo{
+
+	width: 130px;
+	float: left;
+}
+
+
+.slider{
+	display: none;
+}
