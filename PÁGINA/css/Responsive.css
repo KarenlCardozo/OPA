@@ -160,15 +160,17 @@ display: none;
 
 footer #redes{
 
-	float: right;
-	margin: 40px;
+	float: left;
+	margin-top: 60px;
+	margin-left: 260px;
 }
 
 
 footer #info{
 	width: 200px;
 	float: right;
-	margin: 40px 100px;
+	margin-top: 50px;
+	margin-right: 50px;
 }
 
 footer #logo{
@@ -191,3 +193,46 @@ footer #logo p{
 
 }
 
+/*VISTA EN DISPOSITIVOS DE HASTA 768PX*/
+
+
+ @media screen and (min-width: 768px){
+
+/*MOBILEVIEW*/
+
+
+.enlaces{
+
+    float: right;
+    margin: 30px 20px;
+}
+
+.mobileview .logo{
+
+	width: 150px;
+	float: left;
+	margin: 20px 20px;
+}
+
+
+/*FOOTER*/
+
+footer #redes{
+
+	float: left;
+	margin-top: 50px;
+	margin-left: 260px;
+}
+
+
+footer #info{
+	width: 200px;
+	float: right;
+	margin-top: 40px;
+	margin-right: 50px;
+}
+
+
+
+
+ }

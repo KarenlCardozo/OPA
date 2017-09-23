@@ -19,7 +19,7 @@ body{
 header{
 
      height: 140px;
-     background: #FFFFFB;
+     background: #FBFCF7;
      width: 100%;     
      z-index: 100;
      display: none;
@@ -30,6 +30,7 @@ header{
 
     height: 110px;
     float: left;
+    margin: 10px;
 }
 
 .botonesheader{
@@ -111,6 +112,7 @@ header  button{
 
 .search{
 	float: right;
+
 	margin-top: 20px;
 	width: 70%;
 }
@@ -139,6 +141,8 @@ header form .inptexto {
     width: 344px;
     padding: 0px;
     height: 28px;
+    border-radius: 2px;
+    border: none;
 }
 
 

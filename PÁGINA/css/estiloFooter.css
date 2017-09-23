@@ -19,12 +19,12 @@ display: none;
 footer #redes{
 
 	float: left;
-	border: 1px solid pink;
 	left: 0;
 	top: 0;
 	width: auto;
 	margin: 20px 10px;
 	text-align: center;
+	border: 1px solid white;
 }
 
 
@@ -32,11 +32,12 @@ footer #redes{
 footer  #info{
 
 	float: right;
-	border: 1px solid pink;
 	margin: 20px 10px;
-	text-align: center;
+	text-align: justify;
 	margin-bottom: 20px;
+	border: 1px solid white;
 }
+
 
 
 
