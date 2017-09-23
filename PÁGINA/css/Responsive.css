@@ -193,7 +193,7 @@ footer #logo p{
 
 }
 
-/*VISTA EN DISPOSITIVOS DE HASTA 768PX*/
+/*VISTA EN DISPOSITIVOS desde 768PX*/
 
 
  @media screen and (min-width: 768px){
@@ -231,8 +231,6 @@ footer #info{
 	margin-top: 40px;
 	margin-right: 50px;
 }
-
-
 
 
  }
