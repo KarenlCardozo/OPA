@@ -49,7 +49,7 @@
 
 .submenu {
     
-    top: 90px;
+     margin-top: 10px;
     background: rgba(254,201,1,0.5);
 }
 
@@ -72,6 +72,7 @@
 
     width:134px;
     transform: translateX(-111%);
+
 }
 
 .sm2{
