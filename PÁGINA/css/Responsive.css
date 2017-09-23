@@ -11,13 +11,9 @@
  		.mobileview {
  			display: none;
  		}
-
-
-
  		.navegation label{
  			display: none;
  		}
-
  		.navegation{
  			
  		margin-top: 0px;
@@ -30,18 +26,11 @@
  			width: auto;
  			height: 100%;
  			margin-left: 20px;
-			display:inline-block; 
-
  		}
-
  		.menu ul{
 
  			display: flex;
- 			justify-content: center;
-
  		}
-
-
 		.menu li{
 
 		    position: relative;
@@ -49,25 +38,25 @@
 		    margin: 0px;
 		    display:inline-block; 
 		    border: none;
-		    flex-grow: 1;
 		}
-
  		.menu li a {
 
 		    text-align: center;
 		    padding: 10px 20px;
  		}
 
+/*SUB MENU*/
 
 .submenu {
     
     top: 90px;
-     background: rgba(254,201,1,0.5);
+    background: rgba(254,201,1,0.5);
 }
 
 
 .submenu li a{
 	border: none;
+	padding: 5px;
 }
 
 .submenu a:hover{
@@ -79,18 +68,9 @@
 }
 
 
-
-
-.menu li:first-child{
-
-background-color: #FFAB00;
-}
-
-
-
 .sm1{
 
-    width:auto;
+    width:134px;
     transform: translateX(-111%);
 }
 
@@ -116,7 +96,7 @@ background-color: #FFAB00;
 .sm5{
 
     width:100%;
-    transform: translateX(-108%);
+    transform: translateX(-109%);
 }
 
 
@@ -159,7 +139,7 @@ background-color: #FFAB00;
 	margin: 15px;
 }
 
-
+/*FOOTER*/
 
 
 footer{
