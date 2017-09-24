@@ -5,14 +5,12 @@
 	<title>Ingreso | Opa!</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" type="image/x-icon" href="img/logo.ico"/>
-
 	<link rel="stylesheet" type="text/css" href="css/estiloRegistro.css">
-
 	<link rel="stylesheet" type="text/css" href="css/estiloFooter.css">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<link rel="stylesheet" type="text/css" href="css/estiloNav.css">
-
 	<link rel="stylesheet" type="text/css" href="css/Responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/estiloIngresa.css">
 
 </head>
 <body>
@@ -49,7 +47,6 @@
 	</div>
 </header>
 
-
 <div class="mobileview">
 	<div class="contenedor">	
 		<a href="index.html"><img class="logo" src="img/logo2.png" alt="logo"></a>
@@ -65,10 +62,7 @@
 	</div>
 </div>
 
-
 <div class="navegation">
-
-
 
 <input type="checkbox" id="menu-bar">
 <label for="menu-bar"><img src="img/menu-button.png"></label>
@@ -145,9 +139,9 @@
 		
 		<table>
 
-			<tr><td><label for="emailid">E-mail:</label></td><td><input id="emailid" type="Email" name="emailid"></td>
+			<tr><td><label for="emailid">E-mail:</label></td><td id="inp1" ><input id="emailid" type="Email" name="emailid"></td>
 			<tr><td><div id="mesgEmail"></div></td></tr>
-			<tr><td><label for="contraseñaid">Contraseña:</label></td><td><input type="password" id="contraseñaid" name="contraseñaid"></td></tr>
+			<tr><td><label for="contraseñaid">Contraseña:</label></td><td id="inp2"><input type="password" id="contraseñaid" name="contraseñaid"></td></tr>
 			<tr><td><div id="mesgcont"></div></td></tr>
 			<tr><td><div id="mensajes" ></div></td></tr>
 
@@ -194,16 +188,6 @@
 
 <script type="text/javascript">
 
-	function postSubmit(){
-		
-			var email = document.getElementById("emailid").value;
-			var contraseña = document.getElementById("contraseñaid").value;
-		
-/*			document.getElementById("mesgEmail").innerHTML = mensaje;
-			document.getElementById("mesgcont").innerHTML = mensaje;
-			document.getElementById("mensajes").innerHTML = mensaje;
-		*/
-		}
 	
 		function preSubmit(){
 			
@@ -213,19 +197,23 @@
 			var emailVacio = siVacio(email);
 			var constraseñaVacio = siVacio(contraseña);
 			
-			
 			if ( emailVacio || contraseñaVacio){
-				document.getElementById("mesgEmail").innerHTML = "*";
-				document.getElementById("mesgcont").innerHTML = "*";
 				document.getElementById("mensajes").innerHTML = "Por favor complete los datos obligatorios";
-			
-				return false;
-			}
+				/*document.getElementById("mesgEmail").innerHTML = "*";
+				document.getElementById("mesgcont").innerHTML = "*";*/
 
+				document.getElementById("inp1").style.borderColor = "red";
+				document.getElementById("inp2").style.borderColor = "red";
+
+				return false;
+				}
+			
 			postSubmit();
 			
 			return false;
-		}
+			}   
+
+		
 		
 		function siVacio(valor){
 			if (valor == "")
