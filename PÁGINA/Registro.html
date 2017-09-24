@@ -14,6 +14,8 @@
 
 	<link rel="stylesheet" type="text/css" href="css/Responsive.css">
 
+	<link rel="stylesheet" type="text/css" href="css/estiloRegistro.css">
+
 	
 
 </head>
@@ -145,13 +147,16 @@
 		
 		<table>
 
-			<tr><td><label for="nombreid">Nombre:</label></td><td><input  type="text" id="nombreid" name="nombreid"></td></tr>
+			<tr><td><label for="nombreid">Nombre:</label></td></tr>
+			<tr><td id="inp1"><input  type="text" id="nombreid" name="nombreid"></td></tr>
 			<tr><td><div id="msgNomb"></div></td></tr>
 
-			<tr><td><label for="apellidoid">Apellido:</label></td><td><input  type="text" id="apellidoid" name="apellidoid"></td>
+			<tr><td><label for="apellidoid">Apellido:</label></td></tr>
+			<tr><td id="inp2"><input  type="text" id="apellidoid" name="apellidoid"></td>
 			<tr><td><div id="mesgApell"></div></td></tr>
 
-			<tr><td><label for="sexoid">Sexo:</label></td><td>
+			<tr><td><label for="sexoid">Sexo:</label></td></tr>
+			<tr><td id="inp3">
 				<select id="sexoid" name="sexoid">
 				  <option value="">Elija su sexo</option>
 				  <option value="M">Hombre</option>
@@ -159,12 +164,14 @@
 				</select>
 				</td></tr>
 
-			<tr><td><div id="mesgSex"></div></td></tr> <!--el tr no es necesario-->
+			<tr><td><div id="mesgSex"></div></td></tr>
 
-			<tr><td><label for="emailid">E-mail:</label></td><td><input id="emailid" type="Email" name="emailid"></td>
+			<tr><td><label for="emailid">E-mail:</label></td></tr>
+			<tr><td id="inp4"><input id="emailid" type="Email" name="emailid"></td></tr>
 			<tr><td><div id="mesgEmail"></div></td></tr>
 
-			<tr><td><label for="contraseñaid">Contraseña:</label></td><td><input type="password" id="contraseñaid" name="contraseñaid"></td></tr>
+			<tr><td><label for="contraseñaid">Contraseña:</label></td></tr>
+			<tr><td id="inp5"><input type="password" id="contraseñaid" name="contraseñaid"></td></tr>
 			<tr><td><div id="mesgcont"></div></td></tr>
 			<tr><td><div id="mensajes"></div></td></tr>
 				
@@ -199,11 +206,19 @@
 			
 			if ( nombreVacio || apellidoVacio || sexoVacio || emailVacio || contraseñaVacio){
 				document.getElementById("mensajes").innerHTML = "Por favor complete los datos obligatorios";
-				document.getElementById("msgNomb").innerHTML = "*";
-				document.getElementById("mesgApell").innerHTML = "*";
-				document.getElementById("mesgSex").innerHTML = "*";
-				document.getElementById("mesgEmail").innerHTML = "*";
-				document.getElementById("mesgcont").innerHTML = "*";
+				document.getElementById("msgNomb").innerHTML = "* Este campo es obligatorio";
+				document.getElementById("mesgApell").innerHTML = "* Este campo es obligatorio";
+				document.getElementById("mesgSex").innerHTML = "* Este campo es obligatorio";
+				document.getElementById("mesgEmail").innerHTML = "* Este campo es obligatorio";
+				document.getElementById("mesgcont").innerHTML = "* Este campo es obligatorio";
+
+
+				document.getElementById("inp1").style.borderColor = "red";
+				document.getElementById("inp2").style.borderColor = "red";
+				document.getElementById("inp3").style.borderColor = "red";
+				document.getElementById("inp4").style.borderColor = "red";
+				document.getElementById("inp5").style.borderColor = "red";
+
 				return false;
 				}
 			
