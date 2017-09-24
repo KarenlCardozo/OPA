@@ -14,8 +14,6 @@
 
 	<link rel="stylesheet" type="text/css" href="css/Responsive.css">
 
-	
-
 </head>
 <body>
 
@@ -26,9 +24,7 @@
 		<a href="index.html"><img class="logoheader" src="img/logo.png" alt="logo"></a>
 
 		<div class="botonesheader">
-
 				<ul>
-
 					<li><a href="#"><img class="imgcarro" src="img/carrito.png">Mi carrito</a></li>
 					<li><a href="Ingresa.html"><img class="imgcarro" src="img/perfil1.png">Ingresar</a></li>
 					<li><a href="Registro.html"><img class="imgcarro" src="img/perfil2.png">Registrarse</a></li>
@@ -68,9 +64,6 @@
 
 	</div>
 </div>
-
-
-
 
 
 <div class="navegation">
@@ -141,21 +134,8 @@
 	</nav>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 <div class="registro">
-	<form name='registration' id="form" action="#" onsubmit="">
+	<form name='registration' id="form" action="#" onsubmit="return preSubmit();">
 	
 	<h2>Ingresar</h2>
 
@@ -167,11 +147,10 @@
 
 			<tr><td><label for="emailid">E-mail:</label></td><td><input id="emailid" type="Email" name="emailid"></td>
 			<tr><td><div id="mesgEmail"></div></td></tr>
-
 			<tr><td><label for="contraseñaid">Contraseña:</label></td><td><input type="password" id="contraseñaid" name="contraseñaid"></td></tr>
 			<tr><td><div id="mesgcont"></div></td></tr>
+			<tr><td><div id="mensajes" ></div></td></tr>
 
-				
 		</table>		
 		<div>
 		<input id="boton" type="submit" value="Ingresar">
@@ -183,8 +162,6 @@
 			
 		
 </div>
-
-
 
 <footer>
 	
@@ -215,8 +192,54 @@
 			<div class="Copyr"><p> Opa! 2017 TODOS LOS DEREHOS RESERVADOS</p></div>
 </footer>
 
+<script type="text/javascript">
 
+	function postSubmit(){
+		
+			var email = document.getElementById("emailid").value;
+			var contraseña = document.getElementById("contraseñaid").value;
+		
+/*			document.getElementById("mesgEmail").innerHTML = mensaje;
+			document.getElementById("mesgcont").innerHTML = mensaje;
+			document.getElementById("mensajes").innerHTML = mensaje;
+		*/
+		}
+	
+		function preSubmit(){
+			
+			var email = document.getElementById("emailid").value;
+			var contraseña = document.getElementById("contraseñaid").value;
 
+			var emailVacio = siVacio(email);
+			var constraseñaVacio = siVacio(contraseña);
+			
+			
+			if ( emailVacio || contraseñaVacio){
+				document.getElementById("mesgEmail").innerHTML = "*";
+				document.getElementById("mesgcont").innerHTML = "*";
+				document.getElementById("mensajes").innerHTML = "Por favor complete los datos obligatorios";
+			
+				return false;
+			}
+
+			postSubmit();
+			
+			return false;
+		}
+		
+		function siVacio(valor){
+			if (valor == "")
+				return true;
+			else
+				return false;
+		}
+		
+		function siVacioV2(valor){
+			return valor == "";
+		}
+		
+
+</script>
 
 </body>
 </html>
