@@ -139,11 +139,15 @@
 		
 		<table>
 
-			<tr><td><label for="emailid">E-mail:</label></td><td id="inp1" ><input id="emailid" type="Email" name="emailid"></td>
+			<tr><td><label for="emailid">E-mail:</label></td></tr>
+			<tr><td id="inp1" ><input id="emailid" type="Email" name="emailid"></td></tr>
 			<tr><td><div id="mesgEmail"></div></td></tr>
-			<tr><td><label for="contraseñaid">Contraseña:</label></td><td id="inp2"><input type="password" id="contraseñaid" name="contraseñaid"></td></tr>
+
+			<tr><td><label for="contraseñaid">Contraseña:</label></td></tr>
+			<tr><td id="inp2"><input type="password" id="contraseñaid" name="contraseñaid"></td></tr>
 			<tr><td><div id="mesgcont"></div></td></tr>
-			<tr><td><div id="mensajes" ></div></td></tr>
+
+			<tr><td class="tdMensaje"><div id="mensajes" ></div></td></tr>
 
 		</table>		
 		<div>
@@ -199,8 +203,8 @@
 			
 			if ( emailVacio || contraseñaVacio){
 				document.getElementById("mensajes").innerHTML = "Por favor complete los datos obligatorios";
-				/*document.getElementById("mesgEmail").innerHTML = "*";
-				document.getElementById("mesgcont").innerHTML = "*";*/
+				document.getElementById("mesgEmail").innerHTML = "* Este campo es obligatorio";
+				document.getElementById("mesgcont").innerHTML = "* Este campo es obligatorio";
 
 				document.getElementById("inp1").style.borderColor = "red";
 				document.getElementById("inp2").style.borderColor = "red";
