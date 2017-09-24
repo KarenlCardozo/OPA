@@ -161,6 +161,12 @@ display: block;
 
 }
 
+
+section a{
+
+	text-decoration: none;
+}
+
 section ul{
 	list-style-type: none;
 }
