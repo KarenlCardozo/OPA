@@ -5,15 +5,53 @@
 	<title>Opa! Registro</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" type="image/x-icon" href="img/logo.ico"/>
+
 	<link rel="stylesheet" type="text/css" href="css/estiloRegistro.css">
-	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+
 	<link rel="stylesheet" type="text/css" href="css/estiloFooter.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<link rel="stylesheet" type="text/css" href="css/estiloNav.css">
+
 	<link rel="stylesheet" type="text/css" href="css/Responsive.css">
+
 	
 
 </head>
 <body>
+
+<header>
+		
+	<div class="contenedor">
+
+		<img class="logoheader" src="img/logo.png" alt="logo">
+
+		<div class="botonesheader">
+
+				<ul>
+
+					<li><a href="#"><img class="imgcarro" src="img/carrito.png">Mi carrito</a></li>
+					<li><a href="#"><img class="imgcarro" src="img/perfil1.png">Ingresar</a></li>
+					<li><a href="Registro.html"><img class="imgcarro" src="img/perfil2.png">Registrarse</a></li>
+				</ul>
+
+			</div>
+			<!--BUSCADOR!-->
+			<div class="search">
+					<form action="search.html">
+							
+							<div class="searchcolor">
+									<button class="inp1" onclick="" type="button">
+										<img id="lupa" src="img/lupa.png" >
+									</button>
+								<div class="inptexto" >
+									<input type="text" id="buscador" value="Buscar">
+								</div>
+							</div>
+					</form>
+			</div>
+	</div>
+	</div>
+</header>
 
 
 <div class="mobileview">
@@ -121,12 +159,16 @@
 	<form name='registration' id="form" action="#" onsubmit="">
 	
 	<h2>Registro de Usuario</h2>
+	<br>
+	<br>
 		
 		<table>
 
-			<tr><td><label for="nombreid">Nombre:</label></td><td><input  type="text" id="nombreid" name="nombreid"></td><td><div id="msgNomb"></div></td></tr>
+			<tr><td><label for="nombreid">Nombre:</label></td><td><input  type="text" id="nombreid" name="nombreid"></td></tr>
+			<tr><td><div id="msgNomb"></div></td></tr>
 
-			<tr><td><label for="apellidoid">Apellido:</label></td><td><input  type="text" id="apellidoid" name="apellidoid"></td><td><div id="mesgApell"></div></td></tr>
+			<tr><td><label for="apellidoid">Apellido:</label></td><td><input  type="text" id="apellidoid" name="apellidoid"></td>
+			<tr><td><div id="mesgApell"></div></td></tr>
 
 
 
@@ -139,18 +181,23 @@
 
 			
 
-			<tr><td><label for="emailid">E-mail:</label></td><td><input id="emailid" type="Email" name="emailid"></td><td><div id="mesgEmail"></div></td></tr>
+			<tr><td><label for="emailid">E-mail:</label></td><td><input id="emailid" type="Email" name="emailid"></td>
+			<tr><td><div id="mesgEmail"></div></td></tr>
 
-
-			<tr><td><label for="contraseñaid">Contraseña:</label></td><td><input type="password" id="contraseñaid" name="contraseñaid"></td><td><div id="mesgcont"></div></td></tr>
+			<tr><td><label for="contraseñaid">Contraseña:</label></td><td><input type="password" id="contraseñaid" name="contraseñaid"></td></tr>
+			<tr><td><div id="mesgcont"></div></td></tr>
 
 				
 		</table>		
-		
-		<br/>
+		<div>
 		<input id="boton" type="submit" value="Registrarme">
-
+		</div>
 		</form>
+					<div class="cuenta">
+						<h5>¿Ya tienes una cuenta? <a href="#">¡Inicia sesión aquí!</a></h5>
+					</div>
+			
+		
 </div>
 
 

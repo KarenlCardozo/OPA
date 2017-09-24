@@ -1,13 +1,14 @@
 .registro{
-	width: 80%;
+	width: 320px;
 	box-shadow: 0px 5px 5px #E4E4E4;
 	border: 1px solid #dbdcda;
 	border-radius: 4px;
 	margin: auto;
-	height: 500px;
+	height: auto;
 	padding: auto;
 	margin-bottom: 50px;
 	margin-top: 100px;
+	justify-content: center;
 }
 
 
@@ -22,7 +23,7 @@
 	padding: 10px;
 	font-family: helvetica;
 	font-size: 16px;
-
+	width: auto;
 }
 
 .registro table td{
@@ -56,4 +57,32 @@
 .registro #boton:hover{
 
 	background: #FFAB00;
+}
+
+.cuenta{
+
+	background: #E5E9EE;
+	height: 40px;
+	clear: both;
+	width: auto;
+	margin-bottom: 30px;
+
+
+}
+
+.cuenta h5{
+
+	padding: 10px;
+	text-align: center;
+	color: #323639;
+	font-size: 14px;
+
+}
+
+.cuenta a{
+
+	text-decoration: none;
+	color: #0D7FC5;
+	cursor: pointer;
+	font-weight: normal;
 }
