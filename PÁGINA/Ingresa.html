@@ -128,6 +128,10 @@
 	</nav>
 </div>
 
+<div id="prueba1"></div>
+<div id="prueba2"></div>
+
+
 <div class="registro">
 	<form name='registration' id="form" action="#" onsubmit="return preSubmit();">
 	
@@ -158,7 +162,6 @@
 						<h5>¿Aún no tienes una cuenta?  <a href="Registro.html">¡Registrate ahora!</a></h5>
 					</div>
 			
-		
 </div>
 
 <footer>
@@ -199,26 +202,27 @@
 			var contraseña = document.getElementById("contraseñaid").value;
 
 			var emailVacio = siVacio(email);
-			var constraseñaVacio = siVacio(contraseña);
+			var contraseñaVacio = siVacio(contraseña);				
 			
-			if ( emailVacio || contraseñaVacio){
+			if (emailVacio || contraseñaVacio){
+
 				document.getElementById("mensajes").innerHTML = "Por favor complete los datos obligatorios";
-				document.getElementById("mesgEmail").innerHTML = "* Este campo es obligatorio";
-				document.getElementById("mesgcont").innerHTML = "* Este campo es obligatorio";
 
-				document.getElementById("inp1").style.borderColor = "red";
-				document.getElementById("inp2").style.borderColor = "red";
+					if (emailVacio){             
+						document.getElementById("mesgEmail").innerHTML = "* Este campo es obligatorio";
+						document.getElementById("inp1").style.borderColor = "red";	
+					}
 
+					if (contraseñaVacio){
+							document.getElementById("mesgcont").innerHTML = "* Este campo es obligatorio";
+							document.getElementById("inp2").style.borderColor = "red";
+					}
+			}
 				return false;
-				}
 			
-			postSubmit();
-			
-			return false;
-			}   
+		}   
+		
 
-		
-		
 		function siVacio(valor){
 			if (valor == "")
 				return true;
