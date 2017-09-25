@@ -204,9 +204,10 @@
 			var emailVacio = siVacio(email);
 			var contraseñaVacio = siVacio(constraseña);
 			
-			if ( nombreVacio || apellidoVacio || sexoVacio || emailVacio || contraseñaVacio){
+
+if ( nombreVacio || apellidoVacio || sexoVacio || emailVacio || contraseñaVacio){
 				document.getElementById("mensajes").innerHTML = "Por favor complete los datos obligatorios";
-				document.getElementById("msgNomb").innerHTML = "* Este campo es obligatorio";
+				/*document.getElementById("msgNomb").innerHTML = "* Este campo es obligatorio";
 				document.getElementById("mesgApell").innerHTML = "* Este campo es obligatorio";
 				document.getElementById("mesgSex").innerHTML = "* Este campo es obligatorio";
 				document.getElementById("mesgEmail").innerHTML = "* Este campo es obligatorio";
@@ -217,8 +218,33 @@
 				document.getElementById("inp2").style.borderColor = "red";
 				document.getElementById("inp3").style.borderColor = "red";
 				document.getElementById("inp4").style.borderColor = "red";
-				document.getElementById("inp5").style.borderColor = "red";
+				document.getElementById("inp5").style.borderColor = "red";*/
 
+
+			if (nombreVacio){
+				document.getElementById("msgNomb").innerHTML = "* Este campo es obligatorio";
+				document.getElementById("inp1").style.borderColor = "red";
+			} 
+
+			if (apellidoVacio) {
+				document.getElementById("mesgApell").innerHTML = "* Este campo es obligatorio";
+				document.getElementById("inp2").style.borderColor = "red";
+			}
+
+			if (sexoVacio) {
+				document.getElementById("mesgSex").innerHTML = "* Este campo es obligatorio";
+				document.getElementById("inp3").style.borderColor = "red";
+			}
+			if (emailVacio) {
+				document.getElementById("mesgEmail").innerHTML = "* Este campo es obligatorio";
+				document.getElementById("inp4").style.borderColor = "red";
+			}
+			if (contraseñaVacio) {				
+				document.getElementById("mesgcont").innerHTML = "* Este campo es obligatorio";
+				document.getElementById("inp5").style.borderColor = "red";
+			}
+
+			
 				return false;
 				}
 			
