@@ -226,25 +226,46 @@ if ( nombreVacio || apellidoVacio || sexoVacio || emailVacio || contraseñaVacio
 				document.getElementById("inp1").style.borderColor = "red";
 			} 
 
+			else {
+				document.getElementById("msgNomb").innerHTML = "";
+				document.getElementById("inp1").style.borderColor = "white";
+			}
+
 			if (apellidoVacio) {
 				document.getElementById("mesgApell").innerHTML = "* Este campo es obligatorio";
 				document.getElementById("inp2").style.borderColor = "red";
+			}
+			else {
+				document.getElementById("msgNomb").innerHTML = "";
+				document.getElementById("inp2").style.borderColor = "white";
 			}
 
 			if (sexoVacio) {
 				document.getElementById("mesgSex").innerHTML = "* Este campo es obligatorio";
 				document.getElementById("inp3").style.borderColor = "red";
 			}
+			else {
+				document.getElementById("mesgSex").innerHTML = "";
+				document.getElementById("inp3").style.borderColor = "white";
+			}
 			if (emailVacio) {
 				document.getElementById("mesgEmail").innerHTML = "* Este campo es obligatorio";
 				document.getElementById("inp4").style.borderColor = "red";
+			}
+			else {
+				document.getElementById("mesgEmail").innerHTML = "";
+				document.getElementById("inp4").style.borderColor = "white";
 			}
 			if (contraseñaVacio) {				
 				document.getElementById("mesgcont").innerHTML = "* Este campo es obligatorio";
 				document.getElementById("inp5").style.borderColor = "red";
 			}
+			else {
+				document.getElementById("mesgcont").innerHTML = "";
+				document.getElementById("inp5").style.borderColor = "white";
+			}
 
-			
+
 				return false;
 				}
 			
