@@ -164,20 +164,19 @@
 				  <option value="F">Mujer</option>
 				</select>
 				</td></tr>
-
 			<tr><td><div id="mesgSex"></div></td></tr>
 
-			<tr><td><label for="emailid">E-mail:</label></td></tr>
-			<tr><td id="inp4"><input id="emailid" type="Email" name="emailid"></td></tr>
-			<tr><td><div id="mesgEmail"></div></td></tr>
-
+			<!--////-->
 			<tr><td><label for="emailid">Teléfono:</label></td></tr>
-			<tr><td id="inp4"><input id="telid" type="tel" name="emailid"></td></tr>
-			<tr><td><div id="mesgEmail"></div></td></tr>
+			<tr><td id="inp4"><input id="telid" type="tel" name="telid"></td></tr>
+			<tr><td><div id="mesgTel"></div></td></tr>
 
+			<tr><td><label for="emailid">E-mail:</label></td></tr>
+			<tr><td id="inp5"><input id="emailid" type="Email" name="emailid"></td></tr>
+			<tr><td><div id="mesgEmail"></div></td></tr>
 
 			<tr><td><label for="contraseñaid">Contraseña:</label></td></tr>
-			<tr><td id="inp5"><input type="password" id="contraseñaid" name="contraseñaid"></td></tr>
+			<tr><td id="inp6"><input type="password" id="contraseñaid" name="contraseñaid"></td></tr>
 			<tr><td><div id="mesgcont"></div></td></tr>
 			<tr><td><div id="mensajes"></div></td></tr>
 				
@@ -202,18 +201,20 @@
 			var sexo= document.getElementById("sexoid").value;
 			var email= document.getElementById("emailid").value;
 			var constraseña= document.getElementById("contraseñaid").value;
+			var telefono = document.getElementById("telid").value;
 
 			var nombreVacio = siVacio(nombre);
 			var apellidoVacio = siVacio(apellido);
-			var sexoVacio = siVacio(sexo); 
+			var sexoVacio = siVacio(sexo); 					
+			var telefonoVacio = siVacio(telefono);
 			var emailVacio = siVacio(email);
-			var contraseñaVacio = siVacio(constraseña);
+			var contraseñaVacio = siVacio(constraseña);	
 
-			var objetoVacio = [nombreVacio, apellidoVacio, sexoVacio, emailVacio, contraseñaVacio]
-			var mensajeObjeto = ["msgNomb", "mesgApell","mesgSex","mesgEmail","mesgcont"]
-			var numInput = ["inp1" , "inp2", "inp3", "inp4", "inp5"]
+			var objetoVacio = [nombreVacio, apellidoVacio, sexoVacio, telefonoVacio, emailVacio, contraseñaVacio]
+			var mensajeObjeto = ["msgNomb", "mesgApell","mesgSex", "mesgTel","mesgEmail","mesgcont"]
+			var numInput = ["inp1" , "inp2", "inp3", "inp4", "inp5", "inp6"]
 
-			if ( nombreVacio || apellidoVacio || sexoVacio || emailVacio || contraseñaVacio){
+			if ( nombreVacio || apellidoVacio || sexoVacio || emailVacio || contraseñaVacio || telefonoVacio ){
 				document.getElementById("mensajes").innerHTML = "Por favor complete los datos obligatorios";
 				
 				for (i=0; i<objetoVacio.length ; i++){
