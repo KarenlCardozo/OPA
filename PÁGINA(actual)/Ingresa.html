@@ -13,7 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="css/estiloIngresa.css">
 
 </head>
-<body>
+<body onload="foco()">
 
 <header>
 		
@@ -191,13 +191,12 @@
 
 <script type="text/javascript">
 
-function foco(idElemento){
- 	document.getElementById(idElemento).focus();
+function foco(){
+ 	document.getElementById("emailid").focus();
 }
 
 
 		function preSubmit(){
-			foco("emailid");
 			var email = document.getElementById("emailid").value;
 			var contraseña = document.getElementById("contraseñaid").value;
 
