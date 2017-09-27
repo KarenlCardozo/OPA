@@ -19,7 +19,7 @@
 	
 
 </head>
-<body>
+<body onload="foco()">
 
 <header>
 		
@@ -193,10 +193,10 @@
 </div>
 
 <script type="text/javascript">
-
-function foco(idElemento){
- 	document.getElementById(idElemento).focus();
-}
+		
+		function foco(){
+		 	document.getElementById("nombreid").focus();
+		}
 
 		function preSubmit(){
 			
