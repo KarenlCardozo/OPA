@@ -1,76 +1,278 @@
-* {    
-	box-sizing: border-box;
+*{
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
-/*ESTILOS HEADER*/
-header { height: 240px; background-color: #ffffff;}
-header div { height: 210px; }
-header div .logoheader { height: 200px; }
-header .btn { float: right; margin-right: 50px; background-color: #ffffff;
-				 margin-bottom:50px ; font-size: 20px;  text-align: center; border:none;} 
-header div .botonesheader{ height: 90px; border: none; }
-header .botonesheader img { float: right; width: 25px; height: 25px; margin-left: 20px; margin-right: 5px;}
+
+body{
+
+	background: white;
+	font-family: helvetica;
+	font-size: 16px;
+	
+}
 
 
-/*imagen del boton*/
-header form button img {height: 30px; width: 35px; margin-left: 4px; margin-right: 2px; margin-top: 4px; 
-							float: right;}
+
+header{
+
+     height: 140px;
+     background: #FBFCF7;
+     width: 100%;     
+     z-index: 100;
+     display: none;
+     top: 0;
+}
+
+.logoheader { 
+
+    height: 110px;
+    float: left;
+    margin: 10px;
+}
+
+.botonesheader{
+
+	float: right;
+	margin-right: 40px;
+	color: #323639;
+}
+
+.imgcarro{
+width: 15px;
+}
+
+/*Lista carrito, registrarse, ingresar*/
+header ul {
+
+     list-style-type: none;
+     justify-content: flex-end; 
+     margin-right: 60px;
+     display: flex;
+     text-align: center;
+}
+ header li {
+
+    position: relative;
+    margin-right: 20px; 
+    margin-top: 20px;
+    display:inline-block; 
+    font-family: Helvetica;  
+
+
+}
+
+header li a {
+    padding: 10px;
+    text-decoration: none;
+    color: #323639;
+    font-size: 16px; 
+    display: block;
+
+
+}
+
+header li:active{
+
+    text-decoration: underline;
+
+}
 
 /*contenedor del buscador */
-header .buscadorheader{ height: 40px; background-color: #ffab00; margin:80px; margin-top: 0px; border-radius: 8px;}
+
+header .buscadorheader{ 
+
+
+    height: 40px; 
+    background-color: #ffab00; 
+    margin:80px;  
+    border-radius: 8px;
+}
+
+
+
+header #lupa{
+
+    width: 20px;
+}
+
 
 /*boton*/
-header .buscadorheader button{ float: right; height: 35px; width: 40px ; border-radius: 8px;
-								 background-color: #ffab00; margin-top: 1px; margin-right: 6px; border: none;}
+header  button{ 
+
+    height: 30px; 
+    width: 30px; 
+    background-color: #ffab00;  
+    float: right;
+    border: none;
+    margin-right: 0px;
+}
+
+.search{
+	float: right;
+    margin-top: 20px;
+	width: 70%;
+}
+
+.searchcolor{
+
+    border: 3px solid #FFAB00;
+    height: 34px;
+    width: 380px;
+    border-radius: 4px 4px;
+    float: right;
+  	margin-right: 90px;
+}
+
 
 /*texto a buscar*/
+header form .inptexto { 
 
-header form .inptexto { height: 100px; width: 80%; margin: 00px 10px; float: left;}
-header form .inptexto #buscador { width: 100%; height: 30px; float: left; margin: 5px; }
+    height: 100px;  
+    margin-top: 0px; 
+    float: right;
+}
 
+#buscador {
 
-/*ESTILOS SECTION*/
-
-section div {height: 300px; border-radius: 8px;  }
-section div .sup {background-color: grey; margin: 0px; height: 130px; }
-section div .inf {background-color: lightgray; height: 130px; }
-
-
-/*ESTILOS FOOTER*/
-
-footer { height: 240px; background-color: #323639; margin: 20px; float: left; background-color: #323639; 
-			color: #ffffff; border: none;}
-footer div { height: 210px; color: #ffffff; font: 80% sans-serif;}
-footer div .logofooter { height: 150px;}
-footer div .div2 { padding-left: 30px; padding-top: 30px; font: 120% sans-serif;}
-footer div ul {list-style-type:none;}
-footer div ul img{ width: 30px; height: 30px; margin: 10px;}
+    width: 344px;
+    padding: 0px;
+    height: 28px;
+    border-radius: 2px;
+    border: none;
+}
 
 
-/*MODELO RESPONSIVE*/
+.contenedor{
+
+	width: 98%;
+	margin: auto;
+}
+
+/*MOBILEVIEW*/
 
 
-[class*="col-"] { float: left;
-            padding: 15px;
-            border: 1px solid grey;
-            margin: 2px;
-        }
-        .col-1 {width: calc(8.33333% - 4px);}
-        .col-2 {width: calc(16.6666% - 4px);}
-        .col-3 {width: calc(24.9999% - 4px);}
-        .col-4 {width: calc(33.3332% - 4px);}
-        .col-5 {width: calc(41.6665% - 4px);}
-        .col-6 {width: calc(49.9998% - 4px);}
-        .col-7 {width: calc(58.3331% - 4px);}
-        .col-8 {width: calc(66.6664% - 4px);}
-        .col-9 {width: calc(74.9997% - 4px);}
-        .col-10 {width: calc(83.3330% - 4px);}
-        .col-11 {width: calc(91.6663% - 4px);}
-        .col-12 {width: calc(100% - 4px);}
+
+.mobileview{
+
+			display: block;
+			height: 120px;
+			background-color: #323639;
+			width: 100%;
+     		top: 0;
+			left: 0;
+     		z-index: 100;
+
+		}
 
 
-        @media only screen and (max-width: 480px) {
-            header.col-1, nav.col-2, div.col-1, div.col-3, footer.col-3 {width: calc(100% - 4px);}
-        }
+.mobileview .logo{
+
+	width: 130px;
+	float: left;
+	margin: 20px 20px;
+}
+
+.enlaces{
+
+    float: right;
+    margin: 10px;
+}
+
+.mobileview ul {
+
+     list-style-type: none;
+     display: flex;
+     text-align: center;
+     float: left;
+    
+}
+.mobileview li {
+
+    position: relative;
+    display:inline-block; 
+    font-family: Helvetica;
+    padding: 5px;
+
+
+}
+
+.mobileview li a {
+    padding: 10px;
+    color: white;
+    font-size: 14px; 
+    display: block;
+    background: rgba(255,255,255,0.1);
+    border-radius: 4px;
+}
+
+.slider{
+	display: none;
+}
+
+
+
+
+/*
+#imgSlider {background-image: url("img/img1.jpg");}
+
+
+*/
+
+
+
+/*
+#imgSlider {
+    width:100%;
+    height: auto;
+}
+
+#imgSlider img {
+    width: auto;
+}
+*/
+
+/*
+.slider  {
+
+    width: 90%;
+    margin: 5%;
+    overflow: hidden;
+    margin-top: 0px;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+
+.slider ul {
+
+    display: flex;
+    padding: 0;
+    animation: cambio 30s infinite;
+    animation-duration: alternate;
+
+}
+
+.slider li {
+
+    list-style: none;
+}
+
+@keyframes cambio {
+
+        0% {margin-left: 0;}
+        20% {margin-left: 0;}
+
+
+        25%{ margin-left: -100% }
+        45%{ margin-left: -100% }
+
+        50%{ margin-left: -200% }
+        70%{ margin-left: -200% }
+
+        75%{ margin-left: -302% }
+        100%{ margin-left: -302%}
+
+}*/
