@@ -11,52 +11,56 @@
 	<link rel="stylesheet" type="text/css" href="css/estiloNav.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<link rel="stylesheet" type="text/css" href="css/estiloRegistro.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 
 </head>
 <body onload="foco()">
 	<header>
 		<div class="contenedor">
-			<a href="index.html"><img class="logoheader" src="img/logo.png" alt="logo"></a>
-			<div class="botonesheader">
+		<a href="index.html"><img class="logoheader" src="img/logo.png" alt="logo"></a>
+		<div class="botonesheader">
 				<ul>
-					<li><a href="#"><img class="imgcarro" src="img/carrito.png">Mi carrito</a></li>
-					<li><a href="Ingresa.html"><img class="imgcarro" src="img/perfil1.png">Ingresar</a></li>
-					<li><a href="Registro.html"><img class="imgcarro" src="img/perfil2.png">Registrarse</a></li>
+					<li><a href="#"><i class="fa fa-shopping-cart color"></i>Mi carrito</a></li>
+					<li><a href="Ingresa.html"><i class="fa fa-user color"></i>Ingresar</a></li>
+					<li><a href="Registro.html"><i class="fa fa-user-plus color"></i>Registrarse</a></li>
 				</ul>
 			</div>
 			<!--BUSCADOR!-->
 			<div class="search">
-				<form action="search.html">		
-					<div class="searchcolor">
-						<button class="inp1" onclick="" type="button">
-							<img id="lupa" src="img/lupa.png" >
-						</button>
-						<div class="inptexto" >
-						<input type="text" id="buscador" value="Buscar">
-						</div>
-					</div>
-				</form>
+					<form action="search.html">
+							
+							<div class="searchcolor">
+									<button class="inp1" onclick="" type="button">
+										<i class="fa fa-search fa-lg menuColor"></i>
+									</button>
+								<div class="inptexto" >
+									<input type="text" id="buscador" value="Buscar">
+								</div>
+							</div>
+					</form>
 			</div>
-		</div>
-		</div>
-	</header>
+	</div>
+	</div>
+</header>
+<div class="mobileview">
+	<div class="contenedor">	
+		<a href="index.html"><img class="logo" src="img/logo2.png" alt="logo"></a>
 
-	<div class="mobileview">
-		<div class="contenedor">	
-			<a href="index.html"><img class="logo" src="img/logo2.png" alt="logo"></a>
-			<div class="enlaces">
+		<div class="enlaces">
 				<ul>
 					<li><a href="Ingresa.html">Ingresar</a></li>
 					<li><a href="Registro.html">Registrarse</a></li>
 				</ul>
 			</div>
-		</div>
+			
+			
+
 	</div>
+</div>
+<div class="navegation">
+<input type="checkbox" id="menu-bar">
+<label for="menu-bar"><i class="fa fa-bars fa-lg menuColor"></i></label>
 
-	<div class="navegation">
-
-	<input type="checkbox" id="menu-bar">
-	<label for="menu-bar"><img src="img/menu-button.png"></label>
 	<nav class="menu-nav">
 		<ul class="menu">
 			<li><a href="index.html">Ofertas del día</a></li>		
@@ -234,30 +238,34 @@
 	</script>
 
 	<footer>
+	
 		<div id="logo">
 			<img class="logofooter" src="img/logo2.png">
 			<p id="min">@2017 Opa!TODOS LOS DEREHOS RESERVADOS</p>
 		</div>
-		<div id="redes">
-			<h4>Sigue a Opa!</h4>
-			<br>
+
+	<div id="redes">
+		<h4>Sigue a Opa!</h4>
+		<br>
 				<ul>
-					<li><a href="#"><img class="icon" src="img/fbICON.png"></a></li>
-					<li><a href="#"><img class="icon" src="img/twICON.png"></a></li>
-					<li><a href="#"><img class="icon" src="img/gICON.png"></a></li> 
-				</ul>
-			</div>
-		<div id="info">
-			<h4>Contacto:</h4>
-				<ul>
-					<li><br><p>info@opa.com.uy</p></li>
-					<br>
-					<li><p>(+598) 2400 0000</p></li>
+					<li><a href="#"><i class="fa fa-facebook fa-lg  socialColor"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter fa-lg  socialColor"></i></a></li>
+					<li><a href="#"><i class="fa fa-google-plus fa-lg socialColor"></i></a></li> 
 				</ul>
 		</div>
-		<div class="Copyr"><p> Opa! 2017 TODOS LOS DEREHOS RESERVADOS</p></div>
+			<div id="info">
+					<h4>Contacto:</h4>
+					<br>
+				<ul>
+					<li class="info"><i class="fa fa-envelope" aria-hidden="true"></i><p>info@opa.com.uy</p></li>
+					<br>
+					<li class="info"><i class="fa fa-phone" aria-hidden="true"></i><p>(+598) 2400 0000</p></li>
+				</ul>
 
-	</footer>
+			</div>
+
+			<div class="Copyr"><p> Opa! 2017 TODOS LOS DEREHOS RESERVADOS</p></div>
+</footer>
 
 </body>
 </html>
