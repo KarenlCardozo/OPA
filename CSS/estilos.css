@@ -39,8 +39,14 @@ header{
 	color: #323639;
 }
 
-.imgcarro{
-width: 15px;
+.color{
+    color: #FFAB00;
+}
+
+
+.socialColor{
+
+    color:rgba(255,255,255,0.3);
 }
 
 /*Lista carrito, registrarse, ingresar*/
