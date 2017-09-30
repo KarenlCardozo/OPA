@@ -49,6 +49,18 @@ header{
     color:rgba(255,255,255,0.3);
 }
 
+
+.menuColor{
+
+    color: #fff;
+}
+
+
+footer .fa:hover{
+
+color:rgba(255,255,255,0.6);
+}
+
 /*Lista carrito, registrarse, ingresar*/
 header ul {
 

@@ -157,7 +157,6 @@ display: none;
 
 }
 
-
 footer #redes{
 
 	float: left;
@@ -167,7 +166,6 @@ footer #redes{
 
 
 footer #info{
-	width: 200px;
 	float: right;
 	margin-top: 50px;
 	margin-right: 50px;
@@ -188,9 +186,14 @@ footer #logo{
 footer #logo p{
 
 	font-size: 10px;
-	color: #7A7A7A;
+	color: rgba(255,255,255,0.2);
 }
 
+footer h4{
+
+	text-align: left;
+	margin-left: 30px;
+}
 
 
 /*registro*/
