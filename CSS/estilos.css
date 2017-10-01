@@ -18,11 +18,13 @@ body{
 header{
 
      height: 140px;
-     background: #FBFCF7;
+     background: #fff;
      width: 100%;     
      z-index: 100;
      display: none;
      top: 0;
+     position: relative;
+     box-shadow: -0px 3px 10px rgba(144,144,144,0.2);
 }
 
 .logoheader { 
