@@ -5,7 +5,6 @@ Primera entrega: Maquetado y definición de estilos para el HOME.
 
 /---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------/
 
-En la carpeta "PÁGINA(actual)" están las últimas actualizaciones de la página.
 
 Se realizó lo establecido para la segunda entrega: Página RESPONSIVE.
 
