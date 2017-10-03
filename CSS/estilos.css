@@ -31,7 +31,7 @@ header{
 
     height: 110px;
     float: left;
-    margin: 10px;
+    margin: 10px 40px;
 }
 
 .botonesheader{
@@ -131,7 +131,7 @@ header  button{
 
 .search{
 	float: right;
-    margin-top: 20px;
+    margin: 20px 20px;
 	width: 70%;
 }
 

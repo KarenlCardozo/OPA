@@ -151,7 +151,9 @@ footer{
 	height: auto;
 	
 }
-
+footer .logofooter{
+	width: 150px;
+}
 
 .Copyr p{
 
@@ -175,10 +177,9 @@ footer #info{
 }
 
 footer #logo{
-
 	display: block;
 	float: left;
-	margin: 20px 20px;
+	margin: 40px 20px;
 
 }
 .logofooter{
