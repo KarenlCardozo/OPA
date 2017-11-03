@@ -1,0 +1,203 @@
+
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {background:#FEFEFE;}
+
+.menu_bar {
+	display:none;
+}
+
+.header{
+	height: 130px;
+	background: #323639;
+	display: block;
+	box-shadow: -0px 3px 10px rgba(16,16,16,0.4);
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	width: 100%;
+}
+
+.logoheader { 
+
+    height: 100px;
+    float: left;
+    margin: 10px 40px;
+}
+
+/*Lista carrito, registrarse, ingresar*/
+.header ul {
+
+     list-style-type: none;
+     justify-content: flex-end; 
+     margin-right: 60px;
+     display: flex;
+     text-align: center;
+}
+ .header li {
+
+    position: relative;
+    margin-right: 20px; 
+    margin-top: 40px;
+    display:inline-block; 
+    font-family: Helvetica;  
+    background: rgba(255,255,255,0.1);
+    border-radius: 4px;
+
+
+}
+
+.header li a {
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px; 
+    display: block;
+
+}
+
+.header span{
+	font-size: 22px;
+}
+
+
+
+.mobileview {
+ 			display: none;
+ 		}
+
+.nav {
+	background:#FEC901;
+	z-index:1000;	
+	width: 100%;
+	height: 67px;
+	margin-top: -2px;
+	font-size: 12pt;
+
+}
+
+.nav ul {
+	list-style:none;
+}
+.nav ul li {
+	display:inline-block;
+	position: relative;
+}
+
+.nav ul li:hover {
+	background:#FFAB00;
+
+}
+
+.nav ul li a {
+	color:#fff;
+	display:block;
+	text-decoration:none;
+	padding: 20px;
+}
+
+.nav ul li a span {
+	margin-right:10px;
+}
+
+.nav ul li:hover .children {
+	display:block;
+}
+
+.nav ul li .children {
+	display: none;
+	background:#FEC901;
+	position: absolute;
+	width: 100%;
+	z-index:1000;
+}
+
+.nav ul li .children li {
+	display:block;
+	overflow: hidden;
+	border-bottom: 1px solid rgba(255,255,255,.5);
+}
+
+.nav ul li .children li a {
+	display: block;
+}
+
+.nav ul li .children li a span {
+	float: right;
+	position: relative;
+	top:3px;
+	margin-right:0;
+	margin-left:10px;
+}
+
+.nav ul li .caret {
+	position: relative;
+	top:3px;
+	margin-left:10px;
+	margin-right:0px;
+}
+
+.flexslider{
+	
+	margin-top: 0px;
+}
+
+.col-orcon{
+
+border: 1px solid black;
+	padding: 10px;
+
+}
+
+.orden{
+
+	width: auto;
+	float: left;
+	border: 1px solid black;
+}
+
+
+.contador{
+
+	width: 200px;
+	float: right;
+	height: 100px;
+	border: 1px solid black;
+}
+
+.Boxcont{
+
+	background: #FFAB00;
+	width: 200px;
+	height: 60px;
+	border-radius: 4px;
+}
+
+select{
+
+	border: 1px solid white;
+	color: #323639;
+}
+
+select option{
+	color: #323639; 
+}
+
+
+
+section{
+
+
+	border:1px solid black;
+	margin-top: 20px;
+
+	}
+
+
+

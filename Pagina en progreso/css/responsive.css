@@ -1,0 +1,208 @@
+@media screen and (max-width: 768px) {
+	body {
+		padding-top:80px;
+	}
+
+	.header{
+		display: none;
+	}
+
+	.mobileview {
+ 			display: block;
+ 			height: 150px;
+			background-color: #323639;
+			width: 100%;
+     		top: 0;
+			left: 0;
+     		z-index: 100;
+     		position: fixed;
+ 		}
+
+ 	.mobileview .logo{
+				width: 180px;
+				margin: 20px 20px;
+			 }
+
+	.mobileview .enlaces{
+
+		float: right;
+		margin-top: 22px;
+	}
+
+	.mobileview .enlaces ul{
+
+		list-style: none;
+		display: flex;
+		margin: 20px;
+	}
+	.mobileview .enlaces ul li{
+
+			padding: 10px;
+	}
+
+	.mobileview .enlaces ul li a {
+    padding: 10px;
+    color: white;
+    font-size: 13px; 
+    display: block;
+}
+
+	.menu_bar {
+		margin-top: 150px;
+		display:block;
+		height: 50px;
+		width:100%;
+		position: fixed;
+		z-index: 1000;
+		top:0;
+		background:#FEC901;
+		margin-left: 0px;
+	}
+
+	.menu_bar .bt-menu {
+		display: block;
+		padding: 5px 10px;
+		color: #fff;
+		overflow: hidden;
+		color: white;
+		font-weight: normal;
+		text-decoration: none;
+		float: left;
+	}
+
+	.menu_bar span {
+		float: right;
+		font-size: 40px;
+	}
+
+ 	.nav {
+		width: 80%;
+		height: calc(100% - 80px);
+		position: fixed;
+		right:100%;
+		margin: 0;
+		overflow: scroll;
+		margin-top: 116px;
+	}
+
+	.nav ul li {
+		display: block;
+		border-bottom:1px solid rgba(255,255,255,.5);
+	}
+
+	.nav ul li a {
+		display: block;
+	}
+
+	.nav ul li:hover .children {
+		display: none;
+		background: #323639;
+	}
+
+	.nav ul li .children {
+		width: 100%;
+		position: relative;
+	}
+
+	.
+
+	.nav ul li .children li a {
+		margin-left:20px;
+	}
+
+	.nav ul li .caret {
+		float: right;
+	}
+
+
+	.flexslider{
+	
+	margin-top: 116px;
+}
+
+
+
+
+.flex-direction-nav a{
+	margin-top: -2%;
+
+	}
+
+.flex-control-nav li a{
+
+	opacity: 0;
+}
+
+.footer .logo{
+
+			display: none;
+	}
+
+.footer .redes{
+
+	margin-top: 30px;
+	}
+	.footer .inf{
+
+	margin-top: 30px;
+	}
+
+	.Registro{
+
+		padding-top: 100px;
+	}
+
+}
+
+
+
+
+/*PARA 425PX O MENOS*/
+
+@media screen and (max-width: 425px) {
+
+
+.mobileview .logo{
+				width: 150px;
+				margin: 20px 0px;
+				border: 1px solid black;
+			 }
+
+.mobileview .enlaces{
+
+		margin-top: 20px;
+		border: 1px solid black;
+		
+	}
+
+	.mobileview .enlaces ul{
+
+		margin: 10px;
+	}
+	.mobileview .enlaces ul li{
+
+			padding: 10px;
+	}
+
+	.footer{
+		height: 340px;
+	}
+	.footer .logo{
+
+			display: none;
+	}
+
+	.footer .redes{
+
+	margin-top: 30px;
+	}
+	.footer .inf{
+
+	margin-top: 30px;
+	}
+
+
+
+}
+
+}
