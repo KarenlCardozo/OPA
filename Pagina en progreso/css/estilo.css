@@ -1,4 +1,4 @@
-
+a
 * {
 	padding:0;
 	margin:0;
@@ -136,12 +136,12 @@ body {background:#FEFEFE;}
 	margin-left:10px;
 }
 
-.nav ul li .caret {
+.nav .arrow {
 	position: relative;
 	top:3px;
 	margin-left:10px;
-	margin-right:0px;
 }
+
 
 .flexslider{
 	
