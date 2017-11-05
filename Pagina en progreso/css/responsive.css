@@ -1,3 +1,38 @@
+
+@media screen and (max-width: 980px) {
+
+.footer .logo{
+
+			display: none;
+	}
+
+.footer .redes{
+
+	margin-top: 10px;
+	}
+	.footer .inf{
+
+	margin-top: 10px;
+	}
+
+	.link{
+			text-align: center;
+	}
+
+	.Registro{
+
+		padding-top: 100px;
+	}
+
+
+
+
+}
+
+
+
+
+
 @media screen and (max-width: 768px) {
 	body {
 		padding-top:80px;
