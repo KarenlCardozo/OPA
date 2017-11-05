@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="css/estilo.css">
 	<link rel="stylesheet" type="text/css" href="css/estiloFooter.css">
-	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/iconmoon/style.css">
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
 	<script src="js/main.js"></script>
 	<link rel="stylesheet" href="flexslider.css" type="text/css">
@@ -23,14 +23,14 @@
 <div class="container-fluid">
 
 	<div class="row">
-	<header class="header col-xs-12">	
+		<header class="header col-xs-12">	
 		<div class="contenedor">
 			<a href="index.html"><img class="logoheader" src="img/logo2.png" alt="logo"></a>
 			<div class="botonesheader">
 					<ul>
-						<li><a href="#"><span class="fa fa-shopping-basket fa-2x"></span></a><li class="separator"></li></li>
-						<li><a href="Ingresa.html"><span class="fa fa-user fa-2x"></span></a><li class="separator"></li></li>
-						<li><a href="Registro.html"><span class="fa fa-user-plus fa-2x"></span></a></li>
+						<li><a href="#"><span class="icon-shopping-basket"></span></a></li>
+						<li><a href="Ingresa.html"><span class="icon-user"></span></a></li>
+						<li><a href="Registro.html"><span class="icon-add-user"></span></a></li>
 						<!--<li><button class="inp1" onclick="" type="button"><span class="fa fa-search fa-2x menuColor"></span></button><input type="text" id="buscador" value="Buscar"></li>!-->
 					</ul>
 			</div>
@@ -39,36 +39,37 @@
 
 
 <div class="row">
-	<div class="col-xs-12">
-		<div class="mobileview">
+	<div class="mobileview">
+		<div class="col-xs-6">
 			<a href="index.html"><img class="logo" src="img/logo2.png" alt="logo"></a>
+		</div>
+		<div class="col-xs-6">
 				<div class="enlaces">
 					<ul>
-						<li><a href="#"><samp class=" fa fa-shopping-basket fa-2x"></samp></a></li>
-						<li><a href="Ingresa.html"><span class="fa fa-user fa-2x"></span></a></li>
-						<li><a href="Registro.html"><samp class="fa fa-user-plus fa-2x"></samp></a></li>
+						<li><a href="#"><span class="icon-shopping-basket"></span></a></li>
+						<li><a href="Ingresa.html"><span class="icon-user"></span></a></li>
+						<li><a href="Registro.html"><span class="icon-add-user"></span></a></li>
 					</ul>
 				</div>
 		</div>
 	</div>
 
 
-
 	<div class="col-xs-12"">
 		<div class="menu_bar">
-			<a href="#" class="bt-menu"><span class="fa fa-bars fa-lg"></span></a>
+			<a href="#" class="bt-menu"><span class="icon-menu"></span></a>
 		</div>
- </div>
+	 </div>
 </div>
 
- <div class="row">
+ <<div class="row">
 	<div class="col-xs-12"">
 		<nav class="nav">
 			<ul>
-				<li><a href="Index.html"><span class="fa fa-tag"></span>Ofertas del día</a></li>
+				<li><a href="Index.html"><span class="icon-tag"></span>Ofertas del día</a></li>
 
 				<li class="submenu">
-					<a href="#"><span class="fa fa-leaf"></span>Estética<span class="fa fa-chevron-down arrow"></span></a>
+					<a href="#"><span class="icon-leaf"></span>Estética<span class="icon-chevron-small-down"></span></a>
 					<ul class="children">
 						<li><a href="#">SubElemento #1</a></li>
 						<li><a href="#">SubElemento #2</a></li>
@@ -76,7 +77,7 @@
 					</ul>
 				</li>
 				<li class="submenu">
-					<a href="#"><span class="fa fa-camera"></span>Tiempo Libre<span class="fa fa-chevron-down arrow"></span></a>
+					<a href="#"><span class="icon-camera"></span>Tiempo Libre<span class="icon-chevron-small-down"></span></a>
 					<ul class="children">
 						<li><a href="#">SubElemento #1</a></li>
 						<li><a href="#">SubElemento #2</a></li>
@@ -84,7 +85,7 @@
 					</ul>
 				</li>
 				<li class="submenu">
-					<a href="#"><span class="fa fa-building"></span>Hotelería<span class="fa fa-chevron-down arrow"></span></a>
+					<a href="#"><span class="icon-building-o"></span>Hotelería<span class="icon-chevron-small-down"></span></a>
 					<ul class="children">
 						<li><a href="#">SubElemento #1</a></li>
 						<li><a href="#">SubElemento #2</a></li>
@@ -92,7 +93,7 @@
 					</ul>
 				</li>
 				<li class="submenu">
-					<a href="#"><span class="fa fa-plane"></span>Viajes<span class="fa fa-chevron-down arrow"></span></a>
+					<a href="#"><span class="icon-aircraft">Viajes<span class="icon-chevron-small-down"></span></a>
 					<ul class="children">
 						<li><a href="#">SubElemento #1</a></li>
 						<li><a href="#">SubElemento #2</a></li>
@@ -100,7 +101,7 @@
 					</ul>
 				</li>
 				<li class="submenu">
-					<a href="#"><span class="fa fa-cutlery"></span>Restaurantes<span class="fa fa-chevron-down arrow"></span></a>
+					<a href="#"><span class="icon-restaurant"></span>Restaurantes<span class="icon-chevron-small-down"></span></a>
 					<ul class="children">
 						<li><a href="#">SubElemento #1</a></li>
 						<li><a href="#">SubElemento #2</a></li>
@@ -196,9 +197,9 @@
 		<h4>Sigue a Opa!</h4>
 		<br>
 				<ul>
-					<li><a href="#"><i class="fa fa-facebook fa-lg  socialColor"></i></a></li>
-					<li><a href="#"><i class="fa fa-twitter fa-lg  socialColor"></i></a></li>
-					<li><a href="#"><i class="fa fa-google-plus fa-lg socialColor"></i></a></li> 
+					<li><a href="#"><span class="icon-facebook"></span></a></li>
+					<li><a href="#"><span class="icon-twitter"></span></a></li>
+					<li><a href="#"><span class="icon-google-plus"></span></a></li> 
 				</ul>
 		</div>
 		
@@ -206,12 +207,11 @@
 		<h4>Contacto</h4>
 		<br>
 				<ul>
-					<li><a href="#"><span class="fa fa-envelope"></span>info@opa.com.uy</a></li>
+					<li><a href="#"><span class="icon-mail-envelope-closed"></span>info@opa.com.uy</a></li>
 					<br>
-					<li><a href="#"><span class="fa fa-phone"></span>(+598) 2400 0000</a></li>
+					<li><a href="#"><span class="icon-phone"></span>(+598) 2400 0000</a></li>
 				</ul>
 		</div>
-
 			<div class="row">
 				<div class="Copyr col-xs-12"><p> Opa! 2017 TODOS LOS DEREHOS RESERVADOS</p></div>
 			</div>
