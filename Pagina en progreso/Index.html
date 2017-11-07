@@ -9,9 +9,12 @@
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
 	<script src="js/main.js"></script>
 	<link rel="stylesheet" href="flexslider.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/estiloSection.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<link rel="stylesheet" type="text/css" href="css/iconmoon/style.css">
+	
+	
 	
 	
 </head>
@@ -162,39 +165,65 @@
 <div class="container">
 	<div class="row">
 
-	<p>Aorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<a href="#"><article id="art">
+			<div id="Aviso01">
+			</div>
+		</article></a>
 
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<a href="#"><article id="art">
+			<div id="Aviso02"></div>
+		</article></a>
 
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<a href="#"><article id="art">
+			<div id="Aviso03"></div>
+		</article></a>
 
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<a href="#"><article id="art">
+			<div id="Aviso04"></div>
+		</article></a>
+
+		<a href="#"><article id="art">
+			<div id="Aviso05"></div>
+		</article></a>
+
+
+		<a href="#"><article id="art">
+			<div id="Aviso06"></div>
+		</article></a>
+
+
+		<a href="#"><article id="art">
+			<div id="Aviso07"></div>
+		</article></a>
+
+
+		<a href="#"><article id="art">
+			<div id="Aviso08"></div>
+		</article></a>
+	
+		<a href="#"><article id="art">
+			<div id="Aviso09"></div>
+		</article></a>
+	
+		<a href="#"><article id="art">
+			<div id="Aviso10"></div>
+		</article></a>
+	
+		<a href="#"><article id="art">
+			<div id="Aviso11"></div>
+		</article></a>
+	
+		<a href="#"><article id="art">
+			<div id="Aviso12"></div>
+		</article></a>
+	
+	
+
+	</div>
+</div>
+
+	</section>
+	
 	</div>
 </div>
 </section>
@@ -251,10 +280,40 @@
 
 
 
-	<script src="js/contador.js"></script>
+	<script src="../js/contador.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 	<script src="js/jquery.flexslider.js"></script>
 	<script src="js/slider.js"></script>
+
+	<script type="text/javascript">
+	
+function faltan(){ 
+
+        var hoy = new Date();
+        var dd = hoy.getDate();
+        var mm = hoy.getMonth()+1; //hoy es 0!
+        var futuro = new Date (2017,mm,(dd+11) ,0,0); 
+        var actualiza = 1000;
+        var ahora = new Date(); 
+        var faltan = futuro - ahora; 
+        if (faltan > 0){ 
+            var segundos = Math.round(faltan/1000); 
+            var minutos = Math.floor(segundos/60); 
+            var segundos_s = segundos%60; 
+            var horas = Math.floor(minutos/60); 
+            var minutos_s = minutos%60; 
+            var horas_s = horas%24; 
+            document.getElementById("boxcont").innerHTML =  horas_s + "h " + minutos_s + "m " + segundos_s +"s" ; 
+            setTimeout("faltan()",actualiza); 
+        } 
+        else { 
+            document.formulario.reloj.value= "00:00:00" ; 
+            return true; 
+        } 
+    }
+
+
+ </script>
 
 </body>
 </html>
