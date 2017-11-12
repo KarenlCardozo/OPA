@@ -1,4 +1,4 @@
-function tiempoOferta(){ 
+function faltan(){ 
 
         var hoy = new Date();
         var dd = hoy.getDate();

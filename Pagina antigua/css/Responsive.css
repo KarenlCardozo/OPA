@@ -1,0 +1,261 @@
+ @media screen and (min-width: 980px){
+
+ 		header{
+ 			display: block;
+ 			width: 100%;
+ 			top: 0
+ 			height:130px;
+ 		}
+
+
+ 		.mobileview {
+ 			display: none;
+ 		}
+ 		.navegation label{
+ 			display: none;
+ 		}
+ 		.navegation{
+ 			
+ 		margin-top: 0px;
+ 		float: left;
+		z-index:-1;
+		box-shadow: -0px 3px 10px rgba(125,125,125,0.2);
+ 		}
+ 		.menu-nav{
+
+ 			position: static;
+ 			width: auto;
+ 			height: 100%;
+ 			margin-left: 20px;
+ 		}
+ 		.menu ul{
+
+ 			display: flex;
+ 		}
+		.menu li{
+
+		    position: relative;
+		    padding: 15px;
+		    margin: 0px;
+		    display:inline-block; 
+		    border: none;
+		}
+ 		.menu li a {
+
+		    text-align: center;
+		    padding: 10px 20px;
+ 		}
+
+/*SUB MENU*/
+
+.submenu {
+    
+     margin-top: 10px;
+    background: rgba(254,201,1,0.5);
+}
+
+
+.submenu li a{
+	border: none;
+	padding: 5px;
+}
+
+.submenu a:hover{
+
+	
+	 background-color: #FFAB00;
+	 color: white;
+
+}
+
+
+.sm1{
+
+    width:134px;
+    transform: translateX(-111%);
+
+}
+
+.sm2{
+
+    width:100%;
+    transform: translateX(-109%);
+}
+
+.sm3{
+
+    width:100%;
+    transform: translateX(-111%);
+}
+
+.sm4{
+
+    width:100%;
+    transform: translateX(-113%);
+}
+
+
+.sm5{
+
+    width:100%;
+    transform: translateX(-109%);
+}
+
+
+
+/*SECTION*/
+
+.slider{
+	display: block;
+	margin-top: 50px;
+	position: relative;
+	z-index: -1;
+}
+
+
+.slider img{
+	width: 100%;
+}
+
+
+
+.col-1{
+	margin-top: 50px;
+}
+
+
+
+
+.col-2{
+
+	margin-top: 70px;
+	float: left;
+}
+
+
+.col-2 article{
+	margin: 5px;
+}
+
+
+.col-2 article{
+	margin: 15px;
+}
+
+/*FOOTER*/
+
+
+footer{
+
+	clear: left;
+	height: auto;
+	
+}
+footer .logofooter{
+	width: 150px;
+}
+
+.Copyr p{
+
+
+display: none;
+
+}
+
+footer #redes{
+
+	float: left;
+	margin-top: 60px;
+	margin-left: 260px;
+}
+
+
+footer #info{
+	float: right;
+	margin-top: 50px;
+	margin-right: 50px;
+}
+
+footer #logo{
+	display: block;
+	float: left;
+	margin: 40px 20px;
+
+}
+.logofooter{
+
+	width: 200px;
+}
+
+footer #logo p{
+
+	font-size: 10px;
+	color: rgba(255,255,255,0.2);
+}
+
+footer h4{
+
+	text-align: left;
+	margin-left: 30px;
+}
+
+
+/*registro*/
+
+.registro{
+
+	
+	width: 400px;
+	margin: 120px auto;
+}
+
+
+
+
+
+
+
+
+}
+
+/*VISTA EN DISPOSITIVOS desde 768PX*/
+
+
+ @media screen and (min-width: 768px){
+
+/*MOBILEVIEW*/
+
+
+.enlaces{
+
+    float: right;
+    margin: 30px 20px;
+}
+
+.mobileview .logo{
+
+	width: 150px;
+	float: left;
+	margin: 20px 20px;
+}
+
+
+/*FOOTER*/
+
+footer #redes{
+
+	float: left;
+	margin-top: 50px;
+	margin-left: 260px;
+}
+
+
+footer #info{
+	width: 200px;
+	float: right;
+	margin-top: 40px;
+	margin-right: 50px;
+}
+
+
+ }

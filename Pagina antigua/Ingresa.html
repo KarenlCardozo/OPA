@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="utf-8">
+<head>
+	<title>Ingreso | Opa!</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/x-icon" href="img/logo.ico"/>
+	<link rel="stylesheet" type="text/css" href="css/estiloRegistro.css">
+	<link rel="stylesheet" type="text/css" href="css/estiloFooter.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/estiloNav.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/estiloIngresa.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+
+</head>
+<body onload="foco()">
+
+<header>
+	<div class="contenedor">
+		<a href="index.html"><img class="logoheader" src="img/logo.png" alt="logo"></a>
+		<div class="botonesheader">
+				<ul>
+					<li><a href="#"><i class="fa fa-shopping-cart color"></i>Mi carrito</a></li>
+					<li><a href="Ingresa.html"><i class="fa fa-user color"></i>Ingresar</a></li>
+					<li><a href="Registro.html"><i class="fa fa-user-plus color"></i>Registrarse</a></li>
+				</ul>
+			</div>
+			<!--BUSCADOR!-->
+			<div class="search">
+					<form action="search.html">
+							
+							<div class="searchcolor">
+									<button class="inp1" onclick="" type="button">
+										<i class="fa fa-search fa-lg menuColor"></i>
+									</button>
+								<div class="inptexto" >
+									<input type="text" id="buscador" value="Buscar">
+								</div>
+							</div>
+					</form>
+			</div>
+	</div>
+	</div>
+</header>
+<div class="mobileview">
+	<div class="contenedor">	
+		<a href="index.html"><img class="logo" src="img/logo2.png" alt="logo"></a>
+
+		<div class="enlaces">
+				<ul>
+					<li><a href="Ingresa.html">Ingresar</a></li>
+					<li><a href="Registro.html">Registrarse</a></li>
+				</ul>
+			</div>
+			
+			
+
+	</div>
+</div>
+<div class="navegation">
+<input type="checkbox" id="menu-bar">
+<label for="menu-bar"><i class="fa fa-bars fa-lg menuColor"></i></label>
+	
+	<nav class="menu-nav">
+		
+		<ul class="menu">
+		<li><a href="index.html">Ofertas del día</a></li>
+
+		
+		<li><a href="#">Estética</a>
+
+		<ul class="submenu sm1">
+			<li><a href="#">Estética 1</a></li>
+			<li><a href="#l">Estética 2</a></li>
+			<li><a href="#">Estética 3</a></li>
+		</ul>
+
+		</li>
+
+		<li><a href="#">Tiempo libre</a>
+
+		<ul class="submenu sm2">
+			<li><a href="#">Tiempo libre 1</a></li>
+			<li><a href="#l">Tiempo libre 2</a></li>
+			<li><a href="#">Tiempo libre 3</a></li>
+		</ul>
+
+		</li>
+
+		<li><a href="#">Hotelería</a>
+
+		<ul class="submenu sm3">
+			<li><a href="#">Hotelería 1</a></li>
+			<li><a href="#l">Hotelería 2</a></li>
+			<li><a href="#">Hotelería 3</a></li>
+		</ul>
+
+		</li>
+
+		<li><a href="#">Viajes</a>
+
+		<ul class="submenu sm4">
+			<li><a href="#">Viajes 1</a></li>
+			<li><a href="#l">Viajes 2</a></li>
+			<li><a href="#">Viajes 3</a></li>
+		</ul>
+
+		</li>
+
+		<li><a href="#">Restaurantes</a>
+
+		<ul class="submenu sm5">
+			<li><a href="#">Restaurantes 1</a></li>
+			<li><a href="#l">Restaurantesa 2</a></li>
+			<li><a href="#">Restaurantes 3</a></li>
+		</ul>
+
+		</li>
+
+	</ul>
+
+	</nav>
+</div>
+
+<div class="registro">
+	<form name='registration' id="form" action="#" onsubmit="return preSubmit();">
+	
+	<h2>Ingresar</h2>
+
+	<br>
+	<hr>
+	<br>
+		
+		<table>
+
+			<tr><td><label for="emailid">E-mail:</label></td></tr>
+			<tr><td id="inp1" ><input id="emailid" type="Email" name="emailid"></td></tr>
+			<tr><td><div id="mesgEmail"></div></td></tr>
+
+			<tr><td><label for="contraseñaid">Contraseña:</label></td></tr>
+			<tr><td id="inp2"><input type="password" id="contraseñaid" name="contraseñaid"></td></tr>
+			<tr><td><div id="mesgcont"></div></td></tr>
+
+			<tr><td class="tdMensaje"><div id="mensajes" ></div></td></tr>
+
+		</table>		
+		<div>
+		<input id="boton" type="submit" value="Ingresar">
+		</div>
+		</form>
+					<div class="cuenta">
+						<h5>¿Aún no tienes una cuenta?  <a href="Registro.html">¡Registrate ahora!</a></h5>
+					</div>
+			
+</div>
+
+<footer>
+	
+		<div id="logo">
+			<img class="logofooter" src="img/logo2.png">
+			<p id="min">@2017 Opa!TODOS LOS DEREHOS RESERVADOS</p>
+		</div>
+
+	<div id="redes">
+		<h4>Sigue a Opa!</h4>
+		<br>
+				<ul>
+					<li><a href="#"><i class="fa fa-facebook fa-lg  socialColor"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter fa-lg  socialColor"></i></a></li>
+					<li><a href="#"><i class="fa fa-google-plus fa-lg socialColor"></i></a></li> 
+				</ul>
+		</div>
+			<div id="info">
+					<h4>Contacto:</h4>
+					<br>
+				<ul>
+					<li class="info"><i class="fa fa-envelope" aria-hidden="true"></i><p>info@opa.com.uy</p></li>
+					<br>
+					<li class="info"><i class="fa fa-phone" aria-hidden="true"></i><p>(+598) 2400 0000</p></li>
+				</ul>
+
+			</div>
+
+			<div class="Copyr"><p> Opa! 2017 TODOS LOS DEREHOS RESERVADOS</p></div>
+</footer>
+
+<script type="text/javascript">
+
+		function foco(){
+		 	document.getElementById("emailid").focus();
+		}
+		
+		function preSubmit(){
+			var email = document.getElementById("emailid").value;
+			var contraseña = document.getElementById("contraseñaid").value;
+
+			var emailVacio = siVacio(email);
+			var contraseñaVacio = siVacio(contraseña);				
+			
+			var objetoVacio = [emailVacio , contraseñaVacio]
+			var idObjeto = ["mesgEmail", "mesgcont"]
+			var numInput = ["inp1" , "inp2"]
+
+			if (emailVacio || contraseñaVacio){
+
+				document.getElementById("mensajes").innerHTML = "Por favor complete los datos obligatorios";
+
+				for (i=0; i<objetoVacio.length ; i++){
+					if (objetoVacio[i]){             
+						document.getElementById(idObjeto[i]).innerHTML = "* Este campo es obligatorio";
+						document.getElementById(numInput[i]).style.borderColor = "red";	
+					}
+					else {
+						document.getElementById(idObjeto[i]).innerHTML = "";
+						document.getElementById(numInput[i]).style.borderColor = "white";	
+					} 
+				}
+				return false;
+			}
+				postSubmit();
+				return false;
+
+		}   
+		
+
+		function siVacio(valor){
+			if (valor == "")
+				return true;
+			else
+				return false;
+		}
+		
+		function siVacioV2(valor){
+			return valor == "";
+		}
+		
+
+</script>
+
+</body>
+</html>

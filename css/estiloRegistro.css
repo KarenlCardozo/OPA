@@ -5,6 +5,7 @@
 
  #msgNomb, #mesgApell, #mesgSex, #mesgEmail, #mesgcont {font-size: 12px; color: red;}
 
+
 .registro{
 	width: 400px;
 	box-shadow: 0px 5px 5px #E4E4E4;
@@ -14,10 +15,14 @@
 	height: auto;
 	padding: auto;
 	margin-bottom: 50px;
-	margin-top: 100px;
+	margin-top: 50px;
 	justify-content: center;
-}
+	}
 
+.title{
+
+	text-align: center;
+}
 
 .registro h2{
 
@@ -50,6 +55,7 @@
 	border: 1px solid #BFBEBE;
 	height: 25px;
 	width: 100%;
+	justify-content: 
 }
 
 .registro #boton{
