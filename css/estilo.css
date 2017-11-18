@@ -150,54 +150,7 @@ body {background:#FEFEFE;}
 
 .col-orcon{
 
-border: 1px solid black;
 	padding: 10px;
 
 }
-
-.orden{
-
-	width: auto;
-	float: left;
-	border: 1px solid black;
-}
-
-
-.contador{
-
-	width: 200px;
-	float: right;
-	height: 100px;
-	border: 1px solid black;
-}
-
-.Boxcont{
-
-	background: #FFAB00;
-	width: 200px;
-	height: 60px;
-	border-radius: 4px;
-}
-
-select{
-
-	border: 1px solid white;
-	color: #323639;
-}
-
-select option{
-	color: #323639; 
-}
-
-
-
-section{
-
-
-	border:1px solid black;
-	margin-top: 20px;
-
-	}
-
-
 
