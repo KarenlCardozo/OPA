@@ -5,7 +5,9 @@ section p{
 	color: #323639; 
 }
 
-
+div.container {
+   			 width: 100%;
+   			}
 
 .col-1{
 
