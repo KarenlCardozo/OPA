@@ -23,8 +23,8 @@ function renderHTML (data) {
         // Generamos el nodo html con los datos que vienen en el JSON
         var html = '<div class="col-md-3 col-sm-12 col-xs-12 col-custom">' + 
         "<img src=" + data[i].imagen +">" +
-        '<div class="product-name">' + data[i].name + '</div>' +
-        '<div class="product-description">' + data[i].descripcion + '</div>'; 
+ //       '<div class="product-name">' + data[i].name + '</div>' +
+ //       '<div class="product-description">' + data[i].descripcion + '</div>'; 
         // Agregamos en el contenedor de productos el html para cada dato del listado
         products.append(html);
     });
