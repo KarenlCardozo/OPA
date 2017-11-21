@@ -2,26 +2,25 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Ofertas del día│Opa!</title>
+	<title>Menu</title>
+	<meta charset="UTF-8">
+	<title>Ingresa│Opa!</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="css/estilo.css">
 	<link rel="stylesheet" type="text/css" href="css/estiloFooter.css">
-	<link rel="stylesheet" href="flexslider.css" type="text/css">
-	<link rel="stylesheet" type="text/css" href="css/estiloSection.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<link rel="stylesheet" type="text/css" href="css/iconmoon/style.css">
-
-
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
 	<script src="js/main.js"></script>
-	<script src="js/contador.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-	<script src="js/jquery.flexslider.js"></script>
-	<script src="js/slider.js"></script>
-	
+	<link rel="stylesheet" href="flexslider.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<style type="text/css">
+		.container{margin: 2px; background-color: lightgray; width: 100%; height: 700px;}
+	</style>
 </head>
-<body onload="faltan()">
+
+<body onload="foco()">
+<header>
 
 <div class="container-fluid">
 
@@ -73,7 +72,7 @@
 				<li><a href="Index.html"><span class="icon-tag"></span>Ofertas del día</a></li>
 
 				<li class="submenu">
-					<a href="#"><span class="icon-leaf"></span>Estética<span class="icon-chevron-thin-down arrow"></span></a>
+					<a href="#"><span class="icon-leaf"></span>Estética<span class="icon-chevron-small-down"></span></a>
 					<ul class="children">
 						<li><a href="#">SubElemento #1</a></li>
 						<li><a href="#">SubElemento #2</a></li>
@@ -81,7 +80,7 @@
 					</ul>
 				</li>
 				<li class="submenu">
-					<a href="#"><span class="icon-camera"></span>Tiempo Libre<span class="icon-chevron-thin-down arrow"></span></a>
+					<a href="#"><span class="icon-camera"></span>Tiempo Libre<span class="icon-chevron-small-down"></span></a>
 					<ul class="children">
 						<li><a href="#">SubElemento #1</a></li>
 						<li><a href="#">SubElemento #2</a></li>
@@ -89,7 +88,7 @@
 					</ul>
 				</li>
 				<li class="submenu">
-					<a href="#"><span class="icon-building-o"></span>Hotelería<span class="icon-chevron-thin-down arrow"></span></a>
+					<a href="#"><span class="icon-building-o"></span>Hotelería<span class="icon-chevron-small-down"></span></a>
 					<ul class="children">
 						<li><a href="#">SubElemento #1</a></li>
 						<li><a href="#">SubElemento #2</a></li>
@@ -97,7 +96,7 @@
 					</ul>
 				</li>
 				<li class="submenu">
-					<a href="#"><span class="icon-aircraft"></span>Viajes<span class="icon-chevron-thin-down arrow"></span></a>
+					<a href="#"><span class="icon-aircraft">Viajes<span class="icon-chevron-small-down"></span></a>
 					<ul class="children">
 						<li><a href="#">SubElemento #1</a></li>
 						<li><a href="#">SubElemento #2</a></li>
@@ -105,7 +104,7 @@
 					</ul>
 				</li>
 				<li class="submenu">
-					<a href="#"><span class="icon-restaurant"></span>Restaurantes<span class="icon-chevron-thin-down arrow"></span></a>
+					<a href="#"><span class="icon-restaurant"></span>Restaurantes<span class="icon-chevron-small-down"></span></a>
 					<ul class="children">
 						<li><a href="#">SubElemento #1</a></li>
 						<li><a href="#">SubElemento #2</a></li>
@@ -117,142 +116,18 @@
 </div>
 </div>
 
-		<div class="flexslider">
-		<ul class="slides">
-			<li>
-				<img src="resources/images/img1.jpg" alt="">
-				<div class="flex-caption"></div>
-			</li>
-			<li>
-				<img src="resources/images/img2.jpg" alt="">
-				<div class="flex-caption"></div>
-				
-			</li>
-			<li>
-				<img src="resources/images/img3.jpg" alt="">
-				<div class="flex-caption"></div>
-			</li>
-		</ul>
-	</div>
-
-
-
-<div class="container">
-	<div class="row col-orcon">
-	<div class="col-xs-12 col-xs-6">
-		<div class="orden">
-			<br>
-			<p>Ordenar por</p><select name="carlist" form="carform">
-				 <option value="volvo">Más vendido</option>
-				 <option value="saab">Mayor precio</option>
-				 <option value="opel">Menor precio</option>
-			</select>
-		</div>
-	</div>
-	<div class="col-xs- 12 col-md-6">
-		<div class="contador">
-			<article>
-				<br>
-				<ul>
-				<span class="icon-clock"></span><div class="Boxcont" id="boxcont"></div>
-				<br>
-			</article>
-		</div>
-	</div>
-</div>
-<hr>
-</div>
-
-
 <section class="col-xs-12">
+	<div class="container">
+	<h1>Carrito de compras</h1>
+		<article>
+			
+		</article>
+		<aside>
+			
 
-
-
- <div class="container">
-    <!--    <div>
-            <h4>My filtros:</h4>
-            <select class="filtros">
-                <option value="0">Valor</option>
-            </select>
-        </div>-->
-
-        <div class="col-xs-12" id="products" class="products-container">
-            
-        </div>
-
-    </div>
-
-
-
-
-
-<!--	
-<div class="container">
-	<div class="row">
-
-		<a href="#"><article id="art">
-			<div id="Aviso01">
-			</div>
-		</article></a>
-
-		<a href="#"><article id="art">
-			<div id="Aviso02"></div>
-		</article></a>
-
-		<a href="#"><article id="art">
-			<div id="Aviso03"></div>
-		</article></a>
-
-		<a href="#"><article id="art">
-			<div id="Aviso04"></div>
-		</article></a>
-
-		<a href="#"><article id="art">
-			<div id="Aviso05"></div>
-		</article></a>
-
-
-		<a href="#"><article id="art">
-			<div id="Aviso06"></div>
-		</article></a>
-
-
-		<a href="#"><article id="art">
-			<div id="Aviso07"></div>
-		</article></a>
-
-
-		<a href="#"><article id="art">
-			<div id="Aviso08"></div>
-		</article></a>
-	
-		<a href="#"><article id="art">
-			<div id="Aviso09"></div>
-		</article></a>
-	
-		<a href="#"><article id="art">
-			<div id="Aviso10"></div>
-		</article></a>
-	
-		<a href="#"><article id="art">
-			<div id="Aviso11"></div>
-		</article></a>
-	
-		<a href="#"><article id="art">
-			<div id="Aviso12"></div>
-		</article></a>
-	
-	
-
+		</aside>
 	</div>
-</div>-->
 
-	</section>
-	
-	</div>
-</div>
-</section>
-</div>
 
 </section>
 
@@ -272,7 +147,7 @@
 			<li><a href="#">Estética</a></li>
 			<li><a href="#">Tiempo libre</a></li>
 			<li><a href="#">Hotelería</a></li>
-			<li><a href="#">Viajes</a></li>
+			<li><a href="#">Vijes</a></li>
 			<li><a href="#">Restaurantes</a></li>
 		</ul>
 		</div>
@@ -280,6 +155,7 @@
 	<div class="redes col-xs-4 col-sm-4 col-md-3">
 		<h4>Sigue a Opa!</h4>
 		<br>
+				<ul>
 				<ul>
 					<li><a href="#"><span class="icon-facebook"></span></a></li>
 					<li><a href="#"><span class="icon-twitter"></span></a></li>
@@ -303,6 +179,10 @@
 	</footer>
 </div>
 
+
+	<script src="js/contador.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="js/jquery.flexslider.js"></script>
+	<script src="js/slider.js"></script>
 </body>
-    <script src="./resources/js/productos.js"></script>
 </html>
