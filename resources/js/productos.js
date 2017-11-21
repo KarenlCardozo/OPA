@@ -21,7 +21,7 @@ function renderHTML (data) {
         // Obtenemos el contenedor donde se van a desplegar los productos
         var products = $("#products");
         // Generamos el nodo html con los datos que vienen en el JSON
-        var html = '<div class="col-md-3 col-sm-12 col-xs-12 col-custom">' + 
+        var html = '<div class="col-XS-12 col-sm-6 col-md-4 col-lg-3 col-custom">' + 
                    '<div class="product-id">' + "<img src=" + data[i].imagen +">" + '</div>';
 
 
