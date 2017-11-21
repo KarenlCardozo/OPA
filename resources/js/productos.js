@@ -25,11 +25,6 @@ function renderHTML (data) {
                    '<div class="product-id">' + "<img src=" + data[i].imagen +">" + '</div>';
 
 
-
-
-
-
-
        // "<img src=" + data[i].imagen +">";// +
  //       '<div class="product-name">' + data[i].name + '</div>' +
  //       '<div class="product-description">' + data[i].descripcion + '</div>'; 
