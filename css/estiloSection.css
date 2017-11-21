@@ -35,15 +35,17 @@ div.container {
 }
 
 .contador p{
-	
+
 }
 
 .Boxcont{
 
-	border: 1px solid #323639;
 	width: 200px;
 	height: 60px;
 	border-radius: 4px;
+	font-size: 32px;
+	font-family: helvetica;
+	background: rgba(0,0,0,0.5);
 }
 
 select{
