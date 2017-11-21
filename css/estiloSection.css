@@ -42,10 +42,9 @@ div.container {
 
 	width: 200px;
 	height: 60px;
-	border-radius: 4px;
 	font-size: 32px;
+	color: #323639;
 	font-family: helvetica;
-	background: rgba(0,0,0,0.5);
 }
 
 select{
