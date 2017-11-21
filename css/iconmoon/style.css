@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?ha3422');
-  src:  url('fonts/icomoon.eot?ha3422#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?ha3422') format('truetype'),
-    url('fonts/icomoon.woff?ha3422') format('woff'),
-    url('fonts/icomoon.svg?ha3422#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?yk0oc1');
+  src:  url('fonts/icomoon.eot?yk0oc1#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?yk0oc1') format('truetype'),
+    url('fonts/icomoon.woff?yk0oc1') format('woff'),
+    url('fonts/icomoon.svg?yk0oc1#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -30,8 +30,14 @@
 .icon-contact:before {
   content: "\e901";
 }
+.icon-clock:before {
+  content: "\e94e";
+}
 .icon-restaurant:before {
   content: "\e909";
+}
+.icon-th-menu:before {
+  content: "\e90c";
 }
 .icon-tag:before {
   content: "\e905";
@@ -44,9 +50,6 @@
 }
 .icon-building-o:before {
   content: "\e90b";
-}
-.icon-mail-envelope-closed:before {
-  content: "\e90c";
 }
 .icon-chevron-small-down:before {
   content: "\e90f";
