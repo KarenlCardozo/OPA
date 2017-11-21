@@ -42,19 +42,36 @@ div.container {
 
 	width: 200px;
 	height: 60px;
-	font-size: 32px;
+	font-size: 29px;
 	color: #323639;
 	font-family: helvetica;
 }
 
+.contador span{
+
+font-size: 30px;
+padding-left: 60px;
+
+}
+
+.contador span:hover{
+	color: rgba(0,0,0,.7);
+	cursor: pointer;
+
+}
+
 select{
 
-	border: 1px solid white;
+	border: 2px solid #323639;
+	width: 120px;
+	border-radius: 2px;
 	color: #323639;
+
 }
 
 select option{
 	color: #323639; 
+	font-size: 18px;
 }
 
 
