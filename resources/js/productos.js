@@ -13,25 +13,42 @@ function mostrarProductos () {
     });
 }
 
-// Despliega el listado de datos 
-// Arma el html dinamicamente 
 function renderHTML (data) {
-    // Recorremos los datos recibidos por parametro
+                                                                             // Recorremos los datos recibidos por parametro
     $.each(data, function(i, item) {
-        // Obtenemos el contenedor donde se van a desplegar los productos
+                                                                                 // Obtenemos el contenedor donde se van a desplegar los productos
         var products = $("#products");
-        // Generamos el nodo html con los datos que vienen en el JSON
-        var html = '<div class="col-XS-12 col-sm-6 col-md-4 col-lg-3 col-custom">' + 
-                   '<div class="product-id">' + "<img src=" + data[i].imagen +">" + '</div>';
+                                                                       // Generamos el nodo html con los datos que vienen en el JSON
+       // var html = '<div class="col-md-3 col-sm-12 col-xs-12 col-custom">' + 
+       var html = //'<div class=" col-xs-3 ">' + 
+   //     "<img src=" + data[i].imagen +">" +
+    //    '<div class="product-name">' + data[i].name + '</div>' +
+     //   '<div class="product-description">' + data[i].descripcion + '</div>'; 
+                                                                             // Agregamos en el contenedor de productos el html para cada dato del listado
+            '<div class="product-item col-md-3 col-sm-12 col-xs-12 col-custom" category='+ data[i].categoria +'>'+ 
+            "<img src=" + data[i].imagen +">" + '<a class="product-name ">' + data[i].categoria + '</a>'+ '</div>';
 
-
-       // "<img src=" + data[i].imagen +">";// +
- //       '<div class="product-name">' + data[i].name + '</div>' +
- //       '<div class="product-description">' + data[i].descripcion + '</div>'; 
-        // Agregamos en el contenedor de productos el html para cada dato del listado
         products.append(html);
     });
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 function mostrarFiltros() {
     // Obtengo datos
