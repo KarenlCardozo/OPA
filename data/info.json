@@ -3,75 +3,93 @@
       "id": 1,
       "name": "Estética",
       "descripcion": "Masajes piedaras calientes en Spa Bamboo",
-      "imagen": "resources/images/Oferta1.png"
+      "imagen": "resources/images/Oferta1.png",
+      "categoria":"estetica"
     },
     {
       "id": 2,
       "name": "Restaurantes",
       "descripcion": "--",
-      "imagen": "resources/images/Oferta2.png"
+      "imagen": "resources/images/Oferta2.png",
+      "categoria":"restaurantes"
     },
     {
       "id": 3,
       "name": "Tiempo Libre",
       "descripcion": null,
-      "imagen": "resources/images/Oferta3.png"
+      "imagen": "resources/images/Oferta3.png",
+      "categoria":"tiempolibre"
     },
     {
       "id": 4,
       "name": "Tiempo Libre",
       "descripcion": "null",
-      "imagen": "resources/images/Oferta4.png"
+      "imagen": "resources/images/Oferta4.png",
+      "categoria":"tiempolibre"
     },
     {
       "id": 5,
       "name": "Hoteles",
       "descripcion": "--",
-      "imagen": "resources/images/Oferta5.png"
+      "imagen": "resources/images/Oferta5.png",
+      "categoria":"hoteles"
     },
     {
       "id": 6,
       "name": "Hoteles",
       "descripcion": "Producto de alta calidadd2",
-      "imagen": "resources/images/Oferta6.png"
+      "imagen": "resources/images/Oferta6.png",
+      "categoria":"hoteles"
     },
     {
       "id": 7,
       "name": "Restaurantes",
       "descripcion": "Producto de alta calidadd2",
-      "imagen": "resources/images/Oferta7.png"
+      "imagen": "resources/images/Oferta7.png",
+      "categoria":"restaurantes"
     },
      {
       "id": 8,
-      "name": "Tonificar",
+      "name": "Viajes",
       "descripcion": "Producto de alta calidadd2",
-      "imagen": "resources/images/Oferta8.png"
+      "imagen": "resources/images/Oferta8.png",
+      "categoria":"viajes"
     },
      {
       "id": 9,
-      "name": "Tonificar",
+      "name": "Estética",
       "descripcion": "Producto de alta calidadd2",
-      "imagen": "resources/images/Oferta9.png"
+      "imagen": "resources/images/Oferta9.png",
+      "categoria":"estetica"
     },
      {
       "id": 10,
-      "name": "Tonificar",
+      "name": "Tiempo Libre",
       "descripcion": "Producto de alta calidadd2",
-      "imagen": "resources/images/Oferta10.png"
+      "imagen": "resources/images/Oferta10.png",
+      "categoria":"tiempolibre"
     },
      {
       "id": 11,
-      "name": "Tonificar",
+      "name": "Tiempo Libre",
       "descripcion": "Producto de alta calidadd2",
-      "imagen": "resources/images/Oferta11.png"
+      "imagen": "resources/images/Oferta11.png",
+      "categoria":"tiempolibre"
     },
      {
       "id": 12,
-      "name": "Tonificar",
+      "name": "Hoteles",
       "descripcion": "Producto de alta calidadd2",
-      "imagen": "resources/images/Oferta12.png"
+      "imagen": "resources/images/Oferta12.png",
+      "categoria":"hoteles"
     }
-  ],
+  ]
+
+
+
+
+
+,
   "categories": [
     {
       "id": 1,
