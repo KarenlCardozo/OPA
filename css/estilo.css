@@ -66,7 +66,32 @@ body {background:#FEFEFE;}
 	font-size: 22px;
 }
 
+/*Buscador*/
 
+span.icon-search{
+	float: left;
+	width: 10%;
+	padding:5px 5px;
+}
+
+input#buscador{
+	float: right;
+	width: 80%;
+	margin: 5px 10px;
+	 padding-right: 5px;
+}
+
+li.li_buscador{
+	width: 45%;
+	margin-bottom: 5px; 
+}
+
+.botonesheader li.li_buscador a {
+	padding:5px 5px;
+	float: left;
+	width: 10%;
+}
+/*end buscador*/
 
 .mobileview {
  			display: none;
