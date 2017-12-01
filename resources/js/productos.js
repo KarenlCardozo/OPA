@@ -29,7 +29,7 @@ function renderHTML (data) {
             "<img src=" + data[i].imagen +">" + '<a class="product-name ">' + 
 
 
-            '<button class="boton-ver btn btn-outline-primary">'+ "Ver oferta"+'</button>'+ '</a>'+ '</div>';
+            '<button class="boton-ver btn btn-outline-primary" href="#">'+ "Ver oferta"+'</button>'+ '</a>'+ '</div>';
         products.append(html);
     });
 }
