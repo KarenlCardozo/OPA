@@ -162,34 +162,31 @@ div .product-item:hover img {
 
 /*NUEVO*/
 .category_list .ct_item-active{
-	background: #2D3E50;
+	background: #FDD924;
 }
 
-.category_list{
+/*.category_list{
     display: flex;
-    flex-direction: row;       
-   /* width: 100%;*/
+    flex-direction: col;   umn
+   
    width: 300%;
-}
+}*/
 
 .category_list .category_item{
     display: block;
     width: 90%;
-    padding: 15px 0;
-    margin-bottom: 20px;
-    background: #E84C3D;
-
+    padding: 5px 0px;
+    margin-bottom: 5px;
+    background: #FDB824;
+   
     text-align: center;
     text-decoration: none;
     color: #fff;
 }
 
 .category_list .ct_item-active{
-    background: #2D3E50;
+    background: #464440;
 }
-
-
-
 
 
 
