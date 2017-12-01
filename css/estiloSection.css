@@ -154,7 +154,7 @@ div .product-item {
 	
 }
 
-div .product-item:hover img {
+div .product-item:hover img ,.boton-ver{
 		transform: scale(1.1);
 
 
@@ -198,7 +198,18 @@ div .product-item:hover img {
 }
 
 
+/*Botones ver oferta*/
+.boton-ver{
+	text-align: center;
+	color: white;
+	font-family: helvetica;
+	font-size: 14px; 
+	border:1px;
+	border-color: lightgrey;
+	background-color: #FFAB00; 
+}
 
+/*----*/
 
 
 

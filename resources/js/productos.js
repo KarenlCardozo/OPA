@@ -25,29 +25,14 @@ function renderHTML (data) {
     //    '<div class="product-name">' + data[i].name + '</div>' +
      //   '<div class="product-description">' + data[i].descripcion + '</div>'; 
                                                                              // Agregamos en el contenedor de productos el html para cada dato del listado
-            '<div class="product-item col-md-3 col-sm-12 col-xs-12 col-custom" category='+ data[i].categoria +'>'+ 
-            "<img src=" + data[i].imagen +">" + '<a class="product-name ">' + data[i].categoria + '</a>'+ '</div>';
+             '<div class="product-item col-md-3 col-sm-12 col-xs-12 col-custom" category='+ data[i].categoria +'>'+ 
+            "<img src=" + data[i].imagen +">" + '<a class="product-name ">' + 
 
+
+            '<button class="boton-ver btn btn-outline-primary">'+ "Ver oferta"+'</button>'+ '</a>'+ '</div>';
         products.append(html);
     });
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 function mostrarFiltros() {
