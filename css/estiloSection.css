@@ -160,42 +160,16 @@ div .product-item:hover img ,.boton-ver{
 
 }
 .product-item img{
-		border-radius: 6.5px 6.5px 6.5px 6.5px;
-
+	
+	border-radius: 6.5px 6.5px 6.5px 6.5px;
 	box-shadow: 0px 20px 20px #E4E4E4;
-		border: 2px solid #dbdcda;
-		width: 100%;
-		height: 100%;
-		transition: .3s;
+	border: 2px solid #dbdcda;
+	width: 100%;
+	height: 100%;
+	transition: .3s;
 }
 
 /*NUEVO*/
-.category_list .ct_item-active{
-	background: #FDD924;
-}
-
-/*.category_list{
-    display: flex;
-    flex-direction: col;   umn
-   
-   width: 300%;
-}*/
-
-.category_list .category_item{
-    display: block;
-    width: 90%;
-    padding: 5px 0px;
-    margin-bottom: 5px;
-    background: #FDB824;
-   
-    text-align: center;
-    text-decoration: none;
-    color: #fff;
-}
-
-.category_list .ct_item-active{
-    background: #464440;
-}
 
 
 /*Botones ver oferta*/
