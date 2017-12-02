@@ -2,6 +2,11 @@ function foco(){
 		 	document.getElementById("emailid").focus();
 		}
 
+$(document).ready(function(){
+	/*ocultemos el ESTADO*/ 
+		$("div.cerrar").hide();
+});
+
 function preSubmit(){
 			
 			var nombre = document.getElementById("nombreid").value;
@@ -41,8 +46,10 @@ function preSubmit(){
 				return false;
 				}
 			
-			postSubmit();
-			
+			/*postSubmit();*/
+			/*mostrar ESTADO*/
+			$("div.registro").hide();
+       		$("div.cerrar").show();
 			return false;
 			}   
 
@@ -58,3 +65,18 @@ function preSubmit(){
 		function siVacioV2(valor){
 			return valor == "";
 		}
+
+	//A partir de aqui guardamos usuario en local storage
+
+	function guardarDatos() {
+        localStorage.name = document.getElementById("nombreid").value;
+        localStorage.surname = document.getElementById("apellidoid").value;
+	}
+
+	function recuperarDatos() {
+    	if ((localStorage.name != ("")) && (localStorage.surname != (""))) {
+        	document.getElementById("datos").innerHTML = "Te has registrado correctamente." + " Bienvenid@ " +localStorage.name + " " + localStorage.surname;
+    	} else {
+        	document.getElementById("datos").innerHTML = "No se registro correctamente";
+    	}
+	}

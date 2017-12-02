@@ -5,3 +5,16 @@
 
  #mesgEmail, #mesgcont {font-size: 12px; color: red;}
 
+
+.cerrar{
+		width: 400px;
+	box-shadow: 0px 5px 5px #E4E4E4;
+	border: 1px solid #dbdcda;
+	border-radius: 4px;
+	margin: auto;
+	height: auto;
+	padding: auto;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	justify-content: center;
+}
