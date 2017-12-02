@@ -76,8 +76,8 @@ function preSubmit(){
 	function recuperarDatos() {
     	if ((localStorage.name != ("")) && (localStorage.surname != (""))) {
         	document.getElementById("datos").innerHTML = "Te has registrado correctamente." 
-        												+ " Bienvenid@ " +localStorage.name + " " + localStorage.surname;
+        												+ " Bienvenid@ " +localStorage.name + " " + localStorage.surname+ ".";
     	} else {
-        	document.getElementById("datos").innerHTML = "No se registro correctamente";
+        	document.getElementById("datos").innerHTML = "No se registro correctamente.";
     	}
 	}

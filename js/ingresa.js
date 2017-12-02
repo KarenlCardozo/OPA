@@ -65,7 +65,7 @@ $(document).ready(function(){
     	if (localStorage.password != ("")){
         	document.getElementById("datos").innerHTML = "Bienvenid@ , has ingresado correctamente.";
     	} else {
-        	document.getElementById("datos").innerHTML = "No has ingresado correctamente";
+        	document.getElementById("datos").innerHTML = "No has ingresado correctamente.";
     	}
 	}
 
