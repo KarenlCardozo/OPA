@@ -18,3 +18,13 @@
 	margin-top: 50px;
 	justify-content: center;
 }
+
+#btn-cerrar-sesion{
+	text-align: center;
+	color: white;
+	font-family: helvetica;
+	font-size: 14px; 
+	border:1px;
+	border-color: lightgrey;
+	background-color: #FFAB00; 
+}

@@ -5,6 +5,15 @@
 
  #msgNomb, #mesgApell, #mesgSex, #mesgEmail, #mesgcont, #mesgTel {font-size: 12px; color: red;}
 
+#btn-cerrar-sesion{
+	text-align: center;
+	color: white;
+	font-family: helvetica;
+	font-size: 14px; 
+	border:1px;
+	border-color: lightgrey;
+	background-color: #FFAB00; 
+}
 
 .registro{
 	width: 400px;
