@@ -137,7 +137,7 @@ li.li_buscador{
 
 .nav ul li .children {
 	display: none;
-	background:rgba(50,54,57,0.5);
+	background:rgba(255,255,255,0.3);
 	position: absolute;
 	width: auto;
 	z-index:1000;
@@ -150,6 +150,12 @@ li.li_buscador{
 width: 450px;
 
 }
+.nav ul li .children li a {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	padding-right: 0px;
+	}
 
 .nav ul li .children img:hover{
 transform: scale(1.1);

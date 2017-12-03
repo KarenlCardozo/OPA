@@ -1,40 +1,34 @@
+/*Para vistas hasta 980px*/
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 980px){
 
-.footer .logo{
-
+	.footer .logo{
 			display: none;
 	}
 
-.footer .redes{
-
-	margin-top: 10px;
+	.footer .redes{
+		margin-top: 10px;
 	}
-	.footer .inf{
 
-	margin-top: 10px;
+	.footer .inf{
+		margin-top: 10px;
 	}
 
 	.link{
-			text-align: center;
+		text-align: center;
 	}
 
 	.Registro{
-
 		padding-top: 100px;
 	}
-
-
-
-
 }
 
 
+/*Para vistas hasta 768px*/
 
-
-
-@media screen and (max-width: 768px) {
-	body {
+@media screen and (max-width: 768px){
+	
+	body{
 		padding-top:80px;
 	}
 
@@ -42,67 +36,58 @@
 		display: none;
 	}
 
-	.mobileview {
- 			display: block;
- 			height: 150px;
-			background-color: #323639;
-			width: 100%;
-     		top: 0;
-			left: 0;
-     		z-index: 100;
-     		position: fixed;
- 		}
+	.mobileview{
+	 	display: block;
+	 	height: 150px;
+		background-color: #323639;
+		width: 100%;
+	    top: 0;
+		left: 0;
+	    z-index: 100;
+	    position: fixed;
+	 }
 
- 	.mobileview .logo{
-				width: 180px;
-				margin: 20px 20px;
-			 }
+	.mobileview .logo{
+		width: 180px;
+		margin: 20px 20px;
+	}
 
 	.mobileview .enlaces{
-
 		float: right;
-		margin-top: 22px;
-		
+		margin-top: 22px;	
 	}
 
 	.mobileview .enlaces ul{
-
 		list-style: none;
 		display: flex;
 		margin: 20px;
-
-
 	}
+
 	.mobileview .enlaces ul li{
-
-			padding: 10px;
-			width: 50px;
+		padding: 10px;
+		width: 50px;
 	}
 
-	.mobileview .enlaces ul li a {
-    padding: 5px;
-    color: white;
-    display: block;
-    text-decoration: none;
+	.mobileview .enlaces ul li a{
+	    padding: 5px;
+	    color: white;
+	    display: block;
+	    text-decoration: none;
+	}
 
-}
+	.mobileview li{
+		background: rgba(255,255,255,0.1);
+	    border-radius: 4px;
+	    margin-right: 20px; 
+	}
 
-.mobileview li{
-	background: rgba(255,255,255,0.1);
-    border-radius: 4px;
-    margin-right: 20px; 
-}
+	.mobileview span {
+		font-size: 20px;	
+	}
 
-.mobileview span {
-
-	font-size: 20px;
-	
-}
-
-.mobileview .enlaces li:hover {
-
-	background: rgba(0,0,0,0.3);
-}
+	.mobileview .enlaces li:hover {
+		background: rgba(0,0,0,0.3);
+	}
 
 	.menu_bar {
 		margin-top: 150px;
@@ -116,7 +101,7 @@
 		margin-left: 0px;
 	}
 
-	.menu_bar .bt-menu {
+	.menu_bar .bt-menu{
 		display: block;
 		padding: 5px 10px;
 		color: #fff;
@@ -127,168 +112,170 @@
 		float: left;
 	}
 
-	.menu_bar span {
-		float: right;
-		font-size: 40px;
+	.menu_bar span{
+			float: right;
+			font-size: 40px;
 	}
 
- 	.nav {
-		width: 80%;
-		height: calc(100% - 80px);
+	.nav{
+		width: 50%;
+		height: calc(100% - 32%);
 		position: fixed;
 		right:100%;
 		margin: 0;
 		overflow: scroll;
 		margin-top: 116px;
+		background: rgba(254,201,1,.8);
 	}
 
-	.nav ul li {
+	.nav ul li{
 		display: block;
 		border-bottom:1px solid rgba(255,255,255,.5);
 	}
 
-	.nav ul li a {
+	.nav ul li a{
 		display: block;
 	}
 
-	.nav ul li:hover .children {
+		/*Los subelementos nos se muestran en las vistas mobile, llevarían a la página específica de cada 
+		oferta, es decir, que cuando el usuario hace clik en Estética, lo llevaría a una página donde
+		encontraría todas las ofertas realcionadas con estética.*/
+
+	.nav ul li:hover .children{
 		display: none;
-		background: #323639;
 	}
 
-	.nav ul li .children {
-		width: 100%;
-		position: relative;
-	}
-
-	.
-
-	.nav ul li .children li a {
-		margin-left:20px;
-	}
-
-	.nav ul li .caret {
-		float: right;
-	}
-
-
-	.flexslider{
-	
-	margin-top: 116px;
-}
-
-
-
-
-.flex-direction-nav a{
-	margin-top: -2%;
-
-	}
-
-.flex-control-nav li a{
-
-	opacity: 0;
-}
-
-.footer .logo{
-
+	.nav ul li .children{
 			display: none;
 	}
 
-.footer .redes{
-
-	margin-top: 30px;
-}
-
-.footer .redes span{
-
-	font-size: 25px;
-}
-
-.footer .redes ul li{
-	margin: 7px;
-}
-.footer .redes ul li a{
-	
-	text-decoration: none;
-}
-
-.footer .redes span:hover{
-
-	text-orientation: none;
-
-}
-
-.footer .inf{
-
-	margin-top: 30px;
-}
-
-.footer .inf span{
-
-	font-size: 20px;
-}
-
-.footer .inf ul li{
-	padding: 5px;
-}
-
-.footer .inf span{
-
-	margin: 10px;
-}
-	.Registro{
-
-		padding-top: 100px;
+	.nav ul li .children img{
+			display: none;
 	}
 
+	.nav ul li .arrow {
+			display: none;
+	}
+
+		/*Slider*/
+
+	.flexslider{
+		margin-top: 116px;
+	}
+
+	.flex-direction-nav a{
+		margin-top: -2%;
+	}
+
+	.flex-control-nav li a{
+		opacity: 0;
+	}
+
+		/*Footer*/
+
+	.footer .logo{
+		display: none;
+	}
+
+	.footer .redes{
+		margin-top: 30px;
+	}
+
+	.footer .redes span{
+
+		font-size: 25px;
+	}
+
+	.footer .redes ul li{
+		margin: 7px;
+	}
+	.footer .redes ul li a{
+		text-decoration: none;
+	}
+
+	.footer .redes span:hover{
+		text-orientation: none;
+	}
+
+	.footer .inf{
+		margin-top: 30px;
+	}
+
+	.footer .inf span{
+		font-size: 20px;
+	}
+
+	.footer .inf ul li{
+		padding: 5px;
+	}
+
+	.footer .inf span{
+		margin: 10px;
+	}
+	.Registro{
+		padding-top: 100px;
+	}
 }
 
 
-
-
-/*PARA 425PX O MENOS*/
+/*Para vistas hasta 425px*/
 
 @media screen and (max-width: 425px) {
 
 
-.mobileview .logo{
-				width: 150px;
-				margin: 20px 0px;
-			 }
+	.mobileview .logo{
+		width: 150px;
+		margin: 20px 0px;
+	}
 
-.mobileview .enlaces{
-
+	.mobileview .enlaces{
 		margin-top: 20px;		
 	}
 
 	.mobileview .enlaces ul{
-
 		margin: 10px;
 	}
 	.mobileview .enlaces ul li{
-
-			padding: 10px;
+		padding: 10px;
 	}
 
+	/*Los subelementos nos se muestran en las vistas mobile, llevarían a la página específica de cada 
+	oferta, es decir, que cuando el usuario hace clik en Estética, lo llevaría a una página donde
+	encontraría todas las ofertas realcionadas con estética.*/
+
+	.nav ul li:hover .children {
+		display: none;
+	}
+
+	.nav ul li .children {
+		display: none;
+	}
+
+	.nav ul li .children img{
+		display: none;
+	}
+
+	.nav ul li .arrow {
+		display: none;
+	}
+
+
+
+/*estilos del footer vista hasta 425 px*/
 	.footer{
 		height: 340px;
 	}
 	.footer .logo{
-
-			display: none;
+		display: none;
 	}
-
 	
 	.footer .redes{
-	display: block;
-	margin-top: 30px;
-	width: 50%;
+		display: block;
+		margin-top: 30px;
+		width: 50%;
 	}
 
-
 	.footer .link{
-
 		width: 50%;
 		font-size: 18px;
 		text-align: left;
@@ -296,14 +283,9 @@
 	}
 
 	.footer .inf{
-
-	margin-top: 0px;
-	width: 50%;
-	padding: 5px;
+		margin-top: 0px;
+		width: 50%;
+		padding: 5px;
 	}
-
-
-
 }
 
-}
