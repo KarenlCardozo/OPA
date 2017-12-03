@@ -1,11 +1,12 @@
 Opa website
 ---------------------------------------------------------------------
 Un parrafo describiendo el sitio creado.
-Opa es una página de diferentes tipos de ofertas (de estética, viajes, hotelería,etc).
 
-Guia de folder/archivos
+
+Guia de folder
 -----------------------------------------------------------------------
 Descripcion de los principales archivos y carpetas
+____________________________________________________________
 - resources
 	- images // Contiene las imagenes utilizadas para las ofertas y las utilizadas para el Slider
 	- nav// Contiene las imagenes utilizadas para las ofertas que se muetrasn en los submenus del nav
@@ -86,9 +87,11 @@ Ejemplo: (Boostrap, Jquery)
 
 Recursos Externos utilizados 
 -----------------------------
-Ejemplo: Sitios web, libros, etc.
 
+-iconmoon: https://icomoon.io 
+-Pixabay : pixabay.com/es
 
+________________________________________________________________________
 Otros
 -----
 Todo lo que se haya considerado importante durante el desarrollo de la aplicacion
