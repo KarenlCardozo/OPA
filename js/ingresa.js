@@ -4,7 +4,7 @@ function foco(){
 		
 $(document).ready(function(){
 	/*ocultemos el ESTADO*/ 
-		$("div.cerrar").hide();
+	$("div.cerrar").hide();
 });
 
 
@@ -37,8 +37,8 @@ $(document).ready(function(){
 			}
 				/*postSubmit();*/
 				/*mostrar ESTADO*/
-				$("div.registro").hide();
-       			$("div.cerrar").show();
+			$("div.registro").hide();
+       		$("div.cerrar").show();
 				return false;
 
 		}   
@@ -56,7 +56,7 @@ $(document).ready(function(){
 		}
 
 
-	//A partir de aqui guardamos usuario en local storage
+	//A partir de aqui mostramos mensaje de ingreso
 	function guardarDatos() {
     	localStorage.password = document.getElementById("contraseñaid").value;
 	}

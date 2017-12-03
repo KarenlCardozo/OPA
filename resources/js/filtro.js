@@ -14,7 +14,6 @@
         $(this).addClass('ct_item-active');
 
         // OCULTANDO PRODUCTOS =========================
-       // $('.product-item').css('transform', 'scale(0)');
         $('.product-item').css('transform', 'scale(0)');
         function hideProduct(){
             $('.product-item').hide();
