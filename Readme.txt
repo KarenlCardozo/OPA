@@ -95,6 +95,7 @@ Otros
 Algunas referencias utilizadas:
 -http://librosweb.es
 -https://www.w3schools.com/
+-https://www.youtube.com/watch?v=UH7Xtn4J5ZM
 -foros de programación
 
 Trabajo realizado por Karen Cardozo y Romina Giaccio.
