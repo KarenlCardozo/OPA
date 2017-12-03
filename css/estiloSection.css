@@ -25,8 +25,6 @@ div.container {
 	float: left;
 }
 
-
-
 .contador{
 
 	width: 200px;
@@ -115,7 +113,9 @@ div#products.col-xs-12{
 	border-radius: 6px 6px 0px 0px;
 }
 
-
+.div_btn_ofertas{
+	height: 30px;
+}
 /*#art{
 
 	width: 300px;
