@@ -42,10 +42,8 @@ function preSubmit(){
 
 				}
 
-/*alert(sexoVacio);*/
 				return false;
 				}
-			
 			/*postSubmit();*/
 			/*mostrar ESTADO*/
 			$("div.registro").hide();
