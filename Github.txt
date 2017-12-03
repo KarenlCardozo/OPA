@@ -2,4 +2,8 @@ Link a trabajo en github
 
 https://github.com/KarenlCardozo/OPA.git
 
+
+linea para consumir:
+node .\node_modules\json-server\bin\index.js .\data\info.json
+
 Karen Cardozo- Romina Giaccio.
