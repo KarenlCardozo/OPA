@@ -23,7 +23,7 @@ function renderHTML (data) {
             '<div class="product-item col-md-3 col-sm-12 col-xs-12 col-custom" category='+ data[i].categoria +'>'+ 
                 "<img src=" + data[i].imagen +">" + 
                 '<div class="div_btn_ofertas">'+
-                    '<a class="product-name ">' + 
+                    '<a class="product-name href="carrito.html" ">' + 
                         '<button class="boton-ver btn btn-outline-primary" href="#">'+ "Ver oferta"+'</button>'+ 
                     '</a>'+ 
                 '</div>'+ 
