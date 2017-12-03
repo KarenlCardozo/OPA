@@ -185,7 +185,16 @@ div .product-item:hover img ,.boton-ver{
 
 /*----*/
 
-
+.boton-carrito{
+	text-align: center;
+	color: white;
+	font-family: helvetica;
+	font-size: 14px; 
+	border:1px;
+	border-color: lightgrey;
+	background-color: #323639;
+	z-index: 9999; 
+}
 
 
 

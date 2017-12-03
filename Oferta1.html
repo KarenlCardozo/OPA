@@ -2,33 +2,25 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Ofertas del día│Opa!</title>
+	<title>Menu</title>
+	<meta charset="UTF-8">
+	<title>Ingresa│Opa!</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="css/estilo.css">
 	<link rel="stylesheet" type="text/css" href="css/estiloFooter.css">
-	<link rel="stylesheet" href="flexslider.css" type="text/css">
-	<link rel="stylesheet" type="text/css" href="css/estiloSection.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<link rel="stylesheet" type="text/css" href="css/iconmoon/style.css">
-	<link rel="stylesheet" type="text/css" href="css/estiloBotonUp.css">
-	<link rel="stylesheet" type="text/css" href="css/estiloFiltro.css">
-
-
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
 	<script src="js/main.js"></script>
-	<script src="js/contador.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-	<script src="js/jquery.flexslider.js"></script>
-	<script src="js/slider.js"></script>
-	<script src="js/scrollup.js"></script>
-	<script src="js/up.js"></script>
-	
+	<link rel="stylesheet" href="flexslider.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/estiloRegistro.css">
+	<link rel="stylesheet" type="text/css" href="css/estiloIngresa.css">
+	<script src="js/ingresa.js"></script>
 </head>
-<body onload="faltan()">
 
-
-<a href="#" class="scrollup"><span class="icon-chevron-up"></span></a>
+<body onload="foco()">
+<header>
 
 <div class="container-fluid">
 
@@ -38,16 +30,16 @@
 			<a href="index.html"><img class="logoheader" src="resources/images/logo2.png" alt="logo"></a>
 			<div class="botonesheader">
 					<ul>
-						<li><a href="Carrito.html"><span class="icon-shopping-basket"></span></a></li>
+						<li><a href="#"><span class="icon-shopping-basket"></span></a></li>
 						<li><a href="Ingresa.html"><span class="icon-user"></span></a></li>
 						<li><a href="Registro.html"><span class="icon-add-user"></span></a></li>
-						
 						<li class="li_buscador">
 							<a href="Carrito.html"><span class="icon-search icon-search"></span></span></a>
   							<form id="formBuscador">
     							<input type="text" id="buscador"  class="form-control" placeholder="Buscar/Search">
   							</form> 
 						</li>
+						<!--<li><button class="inp1" onclick="" type="button"><span class="fa fa-search fa-2x menuColor"></span></button><input type="text" id="buscador" value="Buscar"></li>!-->
 					</ul>
 			</div>
 		</div>
@@ -62,7 +54,7 @@
 		<div class="col-xs-6">
 				<div class="enlaces">
 					<ul>
-						<li><a href="#"><span class="icon-shopping-basket"></span></a></li>
+						<li><a href="Carrito.html"><span class="icon-shopping-basket"></span></a></li>
 						<li><a href="Ingresa.html"><span class="icon-user"></span></a></li>
 						<li><a href="Registro.html"><span class="icon-add-user"></span></a></li>
 					</ul>
@@ -79,7 +71,7 @@
 	 </div>
 </div>
 
- <div class="row">
+  <div class="row">
 	<div class="col-xs-12"">
 		<nav class="nav">
 			<ul>
@@ -123,105 +115,10 @@
 		</nav>
 </div>
 </div>
-
-		<div class="flexslider">
-		<ul class="slides">
-			<li>
-				<img src="resources/images/img1.jpg" alt="">
-				<div class="flex-caption"></div>
-			</li>
-			<li>
-				<img src="resources/images/img2.jpg" alt="">
-				<div class="flex-caption"></div>
-				
-			</li>
-			<li>
-				<img src="resources/images/img3.jpg" alt="">
-				<div class="flex-caption"></div>
-			</li>
-		</ul>
-	</div>
-
-
-
-<div class="container">
-	<div class="row col-orcon">
-	<div class="col-xs-12 col-xs-6">
-		<div class="orden">
-		<br>
-		
-
-<!--MODIFICDO-->
-<div class="filters category_list" role="group">
-<div class="icon-filtre">
-<p>Filtrar por:</p><input type="checkbox" id="filtro-bar">
-	<label for="filtro-bar"><span class="icon-sound-mix"></span></label>
-	
-	<nav class="category">
-		
-		<ul>
-		<li><button href="#" type="button" class="category_item category_btn" category="all"><span class="icon-tag"></span></button></li>
-
-		<li><button href="#" type="button" class="category_item category_btn" category="estetica"><span class="icon-leaf"></span></button></li>
-
-		<li>  <button href="#" type="button" class="category_item category_btn" category="tiempolibre"><span class="icon-camera"></span></button></li>
-
-		<li>  <button href="#" type="button" class="category_item category_btn" category="hoteles"><span class="icon-building-o"></span></button></li>
-
-		<li><button href="#" type="button" class="category_item category_btn" category="viajes"><span class="icon-aircraft"></button></li>
-
-		<li> <button href="#" type="button" class="category_item category_btn" category="restaurantes"><span class="icon-restaurant"></span></button></li>
-
-	</ul>
-</div>
-</div>
-
-		</div>
-	</div>
-	<div class="col-xs- 12 col-md-6">
-		<div class="contador">
-			<article>
-				<br>
-				<ul>
-				<span class="icon-clock"></span><div class="Boxcont" id="boxcont"></div>
-				<br>
-			</article>
-		</div>
-	</div>
-</div>
-<hr>
-</div>
-
-
 <section class="col-xs-12">
-
-
-
- <div class="container">
-    <!--    <div>
-            <h4>My filtros:</h4>
-            <select class="filtros">
-                <option value="0">Valor</option>
-            </select>
-        </div>-->
-
-        <div class="col-xs-12" id="products" class="products-container">
-            
-        </div>
-
-    </div>
-
-<!--	
-<div class="container">
-	<div class="row">
-
-		<a href="#"><article id="art">
-			<div id="Aviso01"></div>
-		</article></a>	
-
-	</div>
-</div>-->
-
+	
+</section>
+</div>
 
 </section>
 
@@ -241,7 +138,7 @@
 			<li><a href="#">Estética</a></li>
 			<li><a href="#">Tiempo libre</a></li>
 			<li><a href="#">Hotelería</a></li>
-			<li><a href="#">Viajes</a></li>
+			<li><a href="#">Vijes</a></li>
 			<li><a href="#">Restaurantes</a></li>
 		</ul>
 		</div>
@@ -249,6 +146,7 @@
 	<div class="redes col-xs-4 col-sm-4 col-md-3">
 		<h4>Sigue a Opa!</h4>
 		<br>
+				<ul>
 				<ul>
 					<li><a href="#"><span class="icon-facebook"></span></a></li>
 					<li><a href="#"><span class="icon-twitter"></span></a></li>
@@ -272,13 +170,10 @@
 	</footer>
 </div>
 
+
+	<script src="js/contador.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="js/jquery.flexslider.js"></script>
+	<script src="js/slider.js"></script>
 </body>
-    <script src="./resources/js/productos.js"></script>
-
-
-
-<!--Añadido-->
-<script src="resources/js/filtro.js"></script>
-
-    
 </html>
