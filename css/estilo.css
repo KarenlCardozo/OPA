@@ -116,7 +116,7 @@ li.li_buscador{
 }
 
 .nav ul li:hover {
-	background:#FFAB00;
+	color: red;
 
 }
 
@@ -137,16 +137,31 @@ li.li_buscador{
 
 .nav ul li .children {
 	display: none;
-	background:#FEC901;
+	background:rgba(50,54,57,0.5);
 	position: absolute;
-	width: 100%;
+	width: auto;
 	z-index:1000;
+	top: 63px;
 }
+/*IMAGENES EN LOS SUB MENUS*/
+
+.nav ul li .children img{
+
+width: 450px;
+
+}
+
+.nav ul li .children img:hover{
+transform: scale(1.1);
+cursor: pointer;
+transition: .9s;
+
+}
+
 
 .nav ul li .children li {
 	display:block;
 	overflow: hidden;
-	border-bottom: 1px solid rgba(255,255,255,.5);
 }
 
 .nav ul li .children li a {
