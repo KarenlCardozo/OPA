@@ -19,12 +19,11 @@
 .registro{
 	width: 400px;
 	border-radius: 4px;
-	margin: auto;
 	height: auto;
 	padding: auto;
 	margin-left:auto;
 	margin-right:auto;
-	margin-top: 60px;
+	margin-top: 10px;
 	left:0;
 	right:0;
 	float: center;

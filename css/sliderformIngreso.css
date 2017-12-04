@@ -3,18 +3,21 @@
 	padding: 0;
 }
 
-.flexslider{
-	width: auto;
-	position: relative;
-}
+
 
 .slides{
 	overflow: hidden;
 }
 
-.slides img{
+
+	.flexslider{
+	width: 102,2%;
+	position: relative;
+	}
+
+	.registroingreso ul img{
 	width: 100%;
-}
+	}
 
 .slides,
 .flex-control-nav,

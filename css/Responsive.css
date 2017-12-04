@@ -19,8 +19,30 @@
 	}
 
 	.Registro{
-		padding-top: 100px;
+		padding-top: 0px;
 	}
+	/*ESTA ES LA CLASE DEL SLIDER QUE ESTÁ EN EL INDEX*/
+	.index{
+		margin-top: 0px;
+	}
+
+	/*SLIDER DE REGISTRO E INGRESO DE USUARIO*/
+
+	.registroingreso{
+		margin-top: 0px;
+	}
+
+	.flexslider{
+	width: auto;
+	height: 100%;
+	position: relative;
+	}
+
+	.registroingreso ul img{
+	width: 130%;
+	}
+
+
 }
 
 
@@ -159,16 +181,29 @@
 
 		/*Slider*/
 
-	.flexslider{
+	/*ESTA ES LA CLASE DEL SLIDER QUE ESTÁ EN EL INDEX*/
+	.index{
 		margin-top: 116px;
 	}
 
-	.flex-direction-nav a{
-		margin-top: -2%;
+	/*SLIDER DE REGISTRO E INGRESO DE USUARIO*/
+
+	.registroingreso{
+		margin-top: 0px;
 	}
 
-	.flex-control-nav li a{
-		opacity: 0;
+	.flexslider{
+	width: auto;
+	height: 100%;
+	position: relative;
+	}
+
+	.registroingreso ul img{
+	width: 170%;
+	}
+
+	.Registro{
+		padding-top: 118px;
 	}
 
 		/*Footer*/
@@ -212,9 +247,7 @@
 	.footer .inf span{
 		margin: 10px;
 	}
-	.Registro{
-		padding-top: 100px;
-	}
+	
 }
 
 
@@ -222,6 +255,9 @@
 
 @media screen and (max-width: 425px) {
 
+	.mobileview{z-index: 999;
+
+	}
 
 	.mobileview .logo{
 		width: 150px;
@@ -258,6 +294,38 @@
 	.nav ul li .arrow {
 		display: none;
 	}
+
+/*ESTA ES LA CLASE DEL SLIDER QUE ESTÁ EN EL INDEX*/
+	.index{
+		margin-top: 116px;
+	}
+
+	/*SLIDER DE REGISTRO E INGRESO DE USUARIO*/
+
+	.registroingreso{
+		margin-top: 0px;
+	}
+
+	.flexslider{
+	width: auto;
+	height: 100%;
+	position: relative;
+	}
+
+	.registroingreso ul img{
+	width: 300%;
+	}
+
+	.Registro{
+		padding-top: 118px;
+	}
+
+
+
+
+
+
+
 
 
 
