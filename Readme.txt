@@ -1,7 +1,7 @@
 Opa website
 ---------------------------------------------------------------------
-	Se trata de un sitio de ofertas diarias dentro de Montevideo que cuenta con diferentes categorías como  hoteles, tiempo libre, restaurantes, viajes, estética.
-Con intencion de que el usuario pueda registrarce e iniciar sesión.
+	Se trata de un sitio de ofertas diarias dentro de Montevideo que cuenta con diferentes categorías como  hoteles, tiempo libre, restaurantes, viajes, estética. 
+Las cuales pueden filtrarce para mayor precticidad .Con intencion de que el usuario pueda registrarce e iniciar sesión.
 
 Guia de folder
 -----------------------------------------------------------------------
@@ -95,7 +95,6 @@ Otros
 Algunas referencias utilizadas:
 -http://librosweb.es
 -https://www.w3schools.com/
--https://www.youtube.com/watch?v=UH7Xtn4J5ZM
 -foros de programación
 
 Trabajo realizado por Karen Cardozo y Romina Giaccio.
