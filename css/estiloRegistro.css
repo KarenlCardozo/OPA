@@ -16,6 +16,11 @@
 
 }
 
+#btn-cerrar-sesion:hover{
+
+	background: #FFAB00;
+}
+
 .registro{
 	width: 400px;
 	border-radius: 4px;
@@ -46,7 +51,7 @@
 	right:0;
 	text-align: center;
 	position: absolute;
-	z-index: 99999;
+	z-index: 999;
 	background: rgba(255,255,255,.5);
 }
 

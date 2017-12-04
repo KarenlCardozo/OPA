@@ -65,7 +65,7 @@
 		width: 100%;
 	    top: 0;
 		left: 0;
-	    z-index: 100;
+	    z-index: 9999;
 	    position: fixed;
 	 }
 
@@ -255,9 +255,7 @@
 
 @media screen and (max-width: 425px) {
 
-	.mobileview{z-index: 999;
-
-	}
+	.mobileview{z-index: 9999;}
 
 	.mobileview .logo{
 		width: 150px;
